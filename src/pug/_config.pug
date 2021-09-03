@@ -1,0 +1,140 @@
+- var imgPath = 'img'
+- var cssPath = 'css'
+- var jsPath = 'js'
+- var domain = 'https://'
+- var themeColor = '#1978db'
+- var siteName = 'okadanao'
+- var logoAlt = '大阪・東大阪市長堂布施駅前のおかだ歯科クリニック'
+
+-
+  var pages = {
+    top : {
+      url : 'index.html',
+      name : 'top',
+      title : ''+siteName,
+      description : 'オカダナオのポートフォリオです。写真やwebサイト/アプリケーションを紹介します。',
+      image : imgPath+'/common/ogp.jpg',
+      imageAlt : '大阪・東大阪市長堂布施駅前のおかだ歯科クリニック',
+      siteType : 'website' 
+    },
+    photos : {
+      url : 'photos.html',
+      name : 'photos',
+      title : 'photos|'+siteName,
+      description : 'オカダナオが撮影した写真を紹介します。',
+      image : imgPath+'/common/ogp.jpg',
+      imageAlt : '大阪・東大阪市長堂布施駅前のおかだ歯科クリニック',
+      siteType : 'website' 
+    },
+    websites : {
+      url : 'websites.html',
+      name : 'websites',
+      title : 'websites｜'+siteName,
+      description : 'オカダナオがつくったwebサイト/アプリケーションを紹介します。',
+      image : imgPath+'/common/ogp.jpg',
+      imageAlt : '大阪・東大阪市長堂布施駅前のおかだ歯科クリニックのドクター',
+      siteType : 'website' 
+    }
+  }
+
+//-
+  -  
+    var globalMenu = [
+      {
+        pageLink: pages.top.url,
+        pageName: pages.top.name,
+        pageNameEng: pages.top.nameEng
+      },
+      {
+        pageLink: pages.doctor.url,
+        pageName: pages.doctor.name,
+        pageNameEng: pages.doctor.nameEng
+      },
+      {
+        pageLink: pages.about.url,
+        pageName: pages.about.name,
+        pageNameEng: pages.about.nameEng,
+        childMenu: [
+          {
+            pageLink: pages.concept.url,
+            pageName: pages.concept.name,
+            pageNameEng: pages.concept.nameEng
+          },
+          {
+            pageLink: pages.facility.url,
+            pageName: pages.facility.name,
+            pageNameEng: pages.facility.nameEng
+          }
+        ]
+      },
+      {
+        pageLink: pages.service.url,
+        pageName: pages.service.name,
+        pageNameEng: pages.service.nameEng,
+        childMenu: [
+          {
+            pageLink: pages.general.url,
+            pageName: pages.general.name,
+            pageNameEng: pages.general.nameEng
+          },
+          {
+            pageLink: pages.perio.url,
+            pageName: pages.perio.name,
+            pageNameEng: pages.perio.nameEng
+          },
+          {
+            pageLink: pages.orthodontic.url,
+            pageName: pages.orthodontic.name,
+            pageNameEng: pages.orthodontic.nameEng
+          },
+          {
+            pageLink: pages.ceramic.url,
+            pageName: pages.ceramic.name,
+            pageNameEng: pages.ceramic.nameEng
+          },
+          {
+            pageLink: pages.whitening.url,
+            pageName: pages.whitening.name,
+            pageNameEng: pages.whitening.nameEng
+          },
+          {
+            pageLink: pages.implant.url,
+            pageName: pages.implant.name,
+            pageNameEng: pages.implant.nameEng
+          },
+          {
+            pageLink: pages.denture.url,
+            pageName: pages.denture.name,
+            pageNameEng: pages.denture.nameEng
+          }
+        ]
+      },
+      {
+        pageLink: pages.price.url,
+        pageName: pages.price.name,
+        pageNameEng: pages.price.nameEng
+      },
+      {
+        pageLink: pages.access.url,
+        pageName: pages.access.name,
+        pageNameEng: pages.access.nameEng
+      },
+      {
+        pageLink: pages.recruit.url,
+        pageName: pages.recruit.name,
+        pageNameEng: pages.recruit.nameEng
+      }
+    ]
+    
+    var headerMenuSp = [
+      {
+        pageLink: pages.call.url,
+        pageName: pages.call.name,
+        pageNameEng: pages.call.nameEng
+      },
+      {
+        pageLink: pages.access.url,
+        pageName: pages.access.name,
+        pageNameEng: pages.access.nameEng
+      }
+    ]

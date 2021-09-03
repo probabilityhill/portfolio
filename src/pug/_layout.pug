@@ -1,0 +1,44 @@
+doctype html
+block vars
+//- include mixin/_nav
+
+html(lang="ja", dir="ltr", prefix="og: http://ogp.me/ns#")
+  head
+    include include/_head
+
+  body(class=key)
+    // ##### ヘッダー #####
+    header.header
+      include include/_header
+      
+    //- ##### グローバルナビゲーション #####
+    //-
+      nav.gnav
+        include include/_gnav
+    
+    // ##### メイン #####
+    main(id="luxy" class=key+"__main")
+      block contents
+      
+    //- ##### フッター #####
+    //-
+      footer.footer
+        include include/_footer
+
+    //- jquery.min.js
+    //- script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+    //- slick.min.js
+    
+    //- script(src="slick/slick.min.js")
+    //- script(src=jsPath+"/nav.js")
+    
+    // プログレッシブ画像
+    script(src="progressive-image/index.js")
+    script.
+      (function(){
+        new Progressive({
+          el: '#app',
+          lazyClass: 'lazy'
+        }).fire()
+      })()
+    block script

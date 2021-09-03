@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>okadanao</title>
+    <meta name="description" content="オカダナオのポートフォリオです。写真やwebサイト/アプリケーションを紹介します。">
+    <meta name="format-detection" content="email=no,telephone=no,address=no">
+    <meta name="theme-color" content="#1978db">
+    <link rel="canonical" href="https://undefined">
+    <!-- プログレッシブ画像-->
+    <link rel="stylesheet" href="progressive-image/index.css">
+    <!--style.css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/common/favicon.ico">
+    <link rel="apple-touch-icon" href="img/common/apple-touch-icon.png">
+    <meta name="msapplication-TileImage" content="img/common/logo.png">
+    <meta name="msapplication-TileColor" content="#1978db">
+    <meta property="og:url" content="https://undefined">
+    <meta property="og:title" content="okadanao">
+    <meta property="og:site_name">
+    <meta property="og:description" content="オカダナオのポートフォリオです。写真やwebサイト/アプリケーションを紹介します。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://img/common/ogp.jpg">
+    <meta property="og:image:alt" content="大阪・東大阪市長堂布施駅前のおかだ歯科クリニック">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body class="top">
+    <!-- ##### ヘッダー #####-->
+    <header class="header">
+      <h1 class="headerSiteName ttl--1"><a href="index.html">okadanao</a></h1>
+      <ul class="headerMenu">
+        <li><a href="/">photos</a></li>
+        <li><a href="#">websites/apps</a></li>
+        <li><a href="#">drawings</a></li>
+      </ul>
+    </header>
+    <!-- ##### メイン #####-->
+    <main class="top__main" id="luxy">
+      <!-- data-horizontal="1" data-speed-x="30"-->
+      <div class="lp" id="app">
+        <div class="luxy-el lp__01 progressive" data-speed-y="40"><img class="preview lazy" data-src="img/top/man.JPG" src="img/top/man-dummy.JPG"></div>
+        <div class="luxy-el lp__02 progressive" data-speed-y="0"><img class="preview lazy" data-src="img/top/yellowflower.JPG" src="img/top/yellowflower-dummy.JPG"></div>
+        <div class="luxy-el lp__03 progressive" data-speed-y="-3"><img class="preview lazy" data-src="img/top/tree.JPG" src="img/top/tree-dummy.JPG"></div>
+        <div class="luxy-el lp__04 progressive" data-speed-y="0"><img class="preview lazy" data-src="img/top/flog.JPG" src="img/top/flog-dummy.JPG"></div>
+        <div class="luxy-el lp__05 progressive" data-speed-y="-3"><img class="preview lazy" data-src="img/top/lake.JPG" src="img/top/lake-dummy.JPG"></div>
+        <div class="luxy-el lp__06 progressive" data-speed-y="0"><img class="preview lazy" data-src="img/top/redivy.JPG" src="img/top/redivy-dummy.JPG"></div>
+        <div class="luxy-el lp__07 progressive" data-speed-y="-3"><img class="preview lazy" data-src="img/top/smallbird.JPG" src="img/top/smallbird-dummy.JPG"></div>
+        <div class="luxy-el lp__08 progressive" data-speed-y="0"><img class="preview lazy" data-src="img/top/owl.JPG" src="img/top/owl-dummy.JPG"></div>
+        <div class="luxy-el lp__09 progressive" data-speed-y="-3"><img class="preview lazy" data-src="img/top/sunset.JPG" src="img/top/sunset-dummy.JPG"></div>
+      </div>
+      <div class="info">
+        <p>各種アカウント</p>
+        <ul>
+          <li><a href="https://github.com/probabilityhill">GitHub</a></li>
+          <li><a href="https://qiita.com/probabilityhill">Qiita</a></li>
+          <li><a href="https://crowdworks.jp/public/employees/4186234">CrowdWorks</a></li>
+        </ul>
+      </div>
+    </main>
+    <!-- プログレッシブ画像-->
+    <script src="progressive-image/index.js"></script>
+    <script>
+      (function(){
+        new Progressive({
+          el: '#app',
+          lazyClass: 'lazy'
+        }).fire()
+      })()
+    </script>
+    <script src="js/luxy.min.js"></script>
+    <script>luxy.init();</script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+.top
+  background-color c-bg-2
+  &__main
+    color: c-txt-2
+    font-weight: 400
+
+.lp
+  position: relative
+  &__01
+    position: relative;
+    z-index: 1
+  &__02
+    position: relative
+    z-index: 2
+  &__03
+    position: relative
+    z-index: 1
+  &__04
+    position: relative
+    top: -9vh
+    z-index: 2
+  &__05
+    position: relative
+    top: -12vh
+    z-index: 1
+  &__06
+    position: relative
+    top: -25vh
+    z-index: 2
+  &__07
+    position: relative
+    top: -24vh
+    z-index: 1
+  &__08
+    position: relative
+    top: -42vh
+    z-index: 2
+  &__09
+    position: relative
+    top: -39vh
+    z-index: 1
+
++tb()
+  .lp
+    &__04
+      top: -10vh
+    &__06
+      top: -24vh
+    &__08
+      top: -39vh
+
++ls()
+  .lp
+    &__03
+      top: 3vh
+    &__04
+      top: -20vh
+    &__05
+      top: -6vh
+    &__06
+      top: -40vh
+    &__07
+      top: -17vh
+    &__08
+      top: -63vh
+    &__09
+      top: -31vh
+
+.info
+  bottom: 1rem
+  left: 2rem
+  position: absolute
+  & ul
+    padding-left 0
+    & li
+      & a
+        &:hover
+          color c-theme-1
+
++ls()
+  .info
+    font-size 150%
+    left: 3rem
