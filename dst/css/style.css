@@ -641,82 +641,87 @@ li {
 
 /* line 45 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__04 {
-    top: -10vh;
+    top: -12vh;
   }
 
 /* line 47 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__06 {
-    top: -24vh;
+    top: -29vh;
   }
 
 /* line 49 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__08 {
-    top: -39vh;
+    top: -46vh;
+  }
+
+/* line 51 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+  .lp__09 {
+    top: -37vh;
   }
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 53 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 55 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
 
-/* line 54 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 56 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__03 {
     top: 3vh;
   }
 
-/* line 56 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 58 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__04 {
     top: -20vh;
   }
 
-/* line 58 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 60 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__05 {
     top: -6vh;
   }
 
-/* line 60 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 62 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__06 {
     top: -40vh;
   }
 
-/* line 62 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 64 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__07 {
     top: -17vh;
   }
 
-/* line 64 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 66 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__08 {
     top: -63vh;
   }
 
-/* line 66 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 68 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .lp__09 {
     top: -31vh;
   }
 }
 
-/* line 69 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 71 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
 .info {
   bottom: 1rem;
   left: 2rem;
   position: absolute;
 }
 
-/* line 73 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 75 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
 .info ul {
   padding-left: 0;
 }
 
-/* line 75 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
-
-/* line 76 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
-
 /* line 77 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+
+/* line 78 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+
+/* line 79 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
 .info ul li a:hover {
   color: #c5da21;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 81 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
+/* line 83 : C:\Users\nao\Documents\portfolio - github\src\stylus\page\_top.styl */
   .info {
     font-size: 150%;
     left: 3rem;

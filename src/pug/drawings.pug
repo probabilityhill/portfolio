@@ -1,0 +1,11 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "drawings"
+  - var page = pages[key]
+
+block contents
+  div(id="app")
+    div(class="progressive")
+      img(class="preview lazy" data-src=imgPath+"/drawings/marble.png" src=imgPath+"/drawings/marble-dummy.png")
