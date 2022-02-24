@@ -9,33 +9,8 @@ block contents
   // data-horizontal="1" data-speed-x="30"
   div(id="app" class="lp")
     div(class="luxy-el lp__01 progressive" data-speed-y="40")
-      img(class="preview lazy" data-src=imgPath+"/top/man.JPG" src=imgPath+"/top/man-dummy.JPG")
-    div(class="luxy-el lp__02 progressive" data-speed-y="0")
-      img(class="preview lazy" data-src=imgPath+"/top/yellowflower.JPG" src=imgPath+"/top/yellowflower-dummy.JPG")
-    div(class="luxy-el lp__03 progressive" data-speed-y="-3")
-      img(class="preview lazy" data-src=imgPath+"/top/tree.JPG" src=imgPath+"/top/tree-dummy.JPG")
-    div(class="luxy-el lp__04 progressive" data-speed-y="0")
-      img(class="preview lazy" data-src=imgPath+"/top/flog.JPG" src=imgPath+"/top/flog-dummy.JPG")
-    div(class="luxy-el lp__05 progressive" data-speed-y="-3")
-      img(class="preview lazy" data-src=imgPath+"/top/lake.JPG" src=imgPath+"/top/lake-dummy.JPG")
-    div(class="luxy-el lp__06 progressive" data-speed-y="0")
-      img(class="preview lazy" data-src=imgPath+"/top/redivy.JPG" src=imgPath+"/top/redivy-dummy.JPG")
-    div(class="luxy-el lp__07 progressive" data-speed-y="-3")
-      img(class="preview lazy" data-src=imgPath+"/top/smallbird.JPG" src=imgPath+"/top/smallbird-dummy.JPG")
-    div(class="luxy-el lp__08 progressive" data-speed-y="0")
-      img(class="preview lazy" data-src=imgPath+"/top/owl.JPG" src=imgPath+"/top/owl-dummy.JPG")
-    div(class="luxy-el lp__09 progressive" data-speed-y="-3")
-      img(class="preview lazy" data-src=imgPath+"/top/sunset.JPG" src=imgPath+"/top/sunset-dummy.JPG")
-  div.info
-    
-    ul
-      li
-        a(href="https://github.com/probabilityhill") GitHub
-      li
-        a(href="https://qiita.com/probabilityhill") Qiita
-      li
-        a(href="https://crowdworks.jp/public/employees/4186234") CrowdWorks
-          
+      img(class="preview lazy" data-src=imgPath+"/"+key+"/man.JPG" src=imgPath+"/"+key+"/man-dummy.JPG")
+
 block script
   script(src=jsPath+"/luxy.min.js")
   script.

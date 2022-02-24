@@ -1,0 +1,11 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "riddles"
+  - var page = pages[key]
+
+block contents
+  div(id="app")
+    div(class="progressive")
+      img(class="preview lazy" data-src=imgPath+"/"+key+"/marble.png" src=imgPath+"/"+key+"/marble-dummy.png")
