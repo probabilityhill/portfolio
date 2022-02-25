@@ -4,9 +4,10 @@
   position: fixed
   top: 0
   z-index: 10000
+  & a:hover
+    color inherit
 
 .headerMenu
-  color: c-txt-2
   font-size: 120%
   font-weight: 500
   left: 2rem
@@ -15,10 +16,9 @@
   position: fixed
   top: 5rem
   z-index: 10000
-  & li
-    & a
-      &:hover
-        color c-theme-1
+  &__here
+    color c-theme-1
+
 
 +ls()
   .headerSiteName

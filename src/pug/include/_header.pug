@@ -3,10 +3,22 @@ h1(class="headerSiteName ttl--1")
   
 ul(class="headerMenu")
   li
-    a(href=pages.websites.url) websites/apps
+    if key == "websites"
+      a(href=pages.websites.url class="headerMenu__here") websites/apps
+    else
+      a(href=pages.websites.url) websites/apps
   li
-    a(href=pages.drawings.url) drawings
+    if key == "drawings"
+      a(href=pages.drawings.url class="headerMenu__here") drawings
+    else
+      a(href=pages.drawings.url) drawings
   li
-    a(href=pages.photos.url) photos
+    if key == "photos"
+      a(href=pages.photos.url class="headerMenu__here") photos
+    else
+      a(href=pages.photos.url) photos
   li
-    a(href=pages.riddles.url) riddles
+    if key == "riddles"
+      a(href=pages.riddles.url class="headerMenu__here") riddles
+    else
+      a(href=pages.riddles.url) riddles
