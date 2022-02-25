@@ -20,7 +20,7 @@
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\setting\_color.styl */
 
-/* line 7 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\setting\_color.styl */
+/* line 8 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\setting\_color.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\setting\_font.styl */
 
@@ -444,7 +444,7 @@ body {
   color: #666;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "Helvetica Neue", "ヒラギノ角ゴシック", "Hiragino Sans", "メイリオ", Meiryo, sans-serif;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
 }
 @media print, screen and (min-width: 520px) {
@@ -523,6 +523,7 @@ li {
 .headerMenu {
   color: #fff;
   font-size: 120%;
+  font-weight: 500;
   left: 2rem;
   margin: 0;
   padding-left: 0;
@@ -531,22 +532,22 @@ li {
   z-index: 10000;
 }
 
-/* line 17 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
-
 /* line 18 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 
 /* line 19 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 .headerMenu li a:hover {
   color: #c5da21;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 23 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+/* line 24 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
   .headerSiteName {
     margin: 2rem 3rem;
   }
 
-/* line 25 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+/* line 26 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
   .headerMenu {
     font-size: 160%;
     left: 3rem;
@@ -559,7 +560,7 @@ li {
 @import "common/_gnav"
 */
 
-/* line 28 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+/* line 29 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_footer.styl */
 
@@ -610,26 +611,33 @@ li {
 .lp__about {
   background-color: #778600;
   padding: 2rem 2rem 6rem;
-}
-
-/* line 10 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
-.lp__about .ttl--2 {
   text-align: center;
 }
 
-/* line 12 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 11 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+.lp__about:last-child {
+  background-color: #9e3f19;
+}
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 .lp__about__txt {
+  padding: 1rem 0;
   text-align: center;
+}
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+.lp__about__txt__h {
+  font-weight: 500;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 16 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 20 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
   .lp__about {
     padding: 2rem 3rem 8rem;
   }
 }
 
-/* line 17 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 21 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
 
