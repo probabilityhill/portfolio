@@ -1,5 +1,5 @@
 
-/* line 33 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\style.styl */
+/* line 34 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\style.styl */
 
 /* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
@@ -592,43 +592,36 @@ li {
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
-
-/* line 2 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
-.top__main {
-  font-weight: 400;
-}
-
-/* line 5 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 .lp__about {
   background-color: #778600;
   padding: 2rem 2rem 6rem;
   text-align: center;
 }
 
-/* line 9 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 5 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 .lp__about:last-child {
   background-color: #9e3f19;
 }
 
-/* line 11 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 7 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 .lp__about__txt {
   padding: 1rem 0;
   text-align: center;
 }
 
-/* line 14 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 10 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 .lp__about__txt__h {
   font-weight: 500;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 18 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 14 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
   .lp__about {
     padding: 2rem 3rem 8rem;
   }
 }
 
-/* line 19 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 15 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
 
@@ -757,6 +750,60 @@ li {
 /* line 62 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
   .lp__09 {
     top: -31vh;
+  }
+}
+
+/* line 63 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main {
+  padding: 8rem;
+}
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block {
+  padding: 1rem 0;
+}
+@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+
+/* line 8 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+  .websites__main {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: row;
+    grid-column-gap: 8rem;
+    -ms-grid-columns: 1fr 8rem 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    padding: 15rem;
+  }
+  .websites__main > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .websites__main > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  .websites__main > *:nth-child(3) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  .websites__main > *:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+  }
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+  .websites__main__block {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

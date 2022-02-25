@@ -6,11 +6,15 @@ block vars
   - var page = pages[key]
 
 block contents
-  div(id="app" class="work")
-    div(class="progressive")
-      img(class="preview lazy" data-src=imgPath+"/"+key+"/odc.png" src=imgPath+"/"+key+"/odc.png")
-    div(class="progressive")
-      img(class="preview lazy" data-src=imgPath+"/"+key+"/odc-sp.png" src=imgPath+"/"+key+"/odc-sp.png")
+  div(id="app" class=key+"__main__block")
+    div(class=key+"__main__block__ss progressive")
+      img(class="preview lazy" data-src=imgPath+"/"+key+"/odc.png" src=imgPath+"/"+key+"/odc-dummy.png")
     section
       h2 おかだ歯科クリニック
-      p 独学でHTMLやCSSを学んで初めてつくったホームページです。
+      p 独学でHTMLやCSSを学んでから初めてつくったホームページです。一年かけて、
+  div(id="app" class=key+"__main__block")
+    div(class=key+"__main__block__ss progressive")
+      img(class="preview lazy" data-src=imgPath+"/"+key+"/kotobasagashi.png" src=imgPath+"/"+key+"/kotobasagashi-dummy.png")
+    section
+      h2 ことばさがし
+      p 謎解き制作のために
