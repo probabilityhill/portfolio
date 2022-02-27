@@ -20,7 +20,7 @@
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\setting\_color.styl */
 
-/* line 8 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\setting\_color.styl */
+/* line 7 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\setting\_color.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\setting\_font.styl */
 
@@ -768,11 +768,36 @@ li {
 .websites__main__block {
   padding: 1rem 0;
 }
-@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
 
 /* line 7 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block__disc__siteName {
+  color: #f6f117;
+  font-weight: 500;
+}
 
-/* line 8 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+/* line 10 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block__disc__ttl {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block__disc__stc {
+  margin: 1rem 0;
+}
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block__disc__stc a {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+@media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
   .websites__main {
     display: -ms-grid;
     display: grid;
@@ -801,7 +826,7 @@ li {
     -ms-grid-column: 3;
   }
 
-/* line 15 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+/* line 27 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
   .websites__main__block {
     padding: 0;
   }

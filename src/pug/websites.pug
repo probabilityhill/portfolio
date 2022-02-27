@@ -8,13 +8,27 @@ block vars
 block contents
   div(id="app" class=key+"__main__block")
     div(class=key+"__main__block__ss progressive")
-      img(class="preview lazy" data-src=imgPath+"/"+key+"/odc.png" src=imgPath+"/"+key+"/odc-dummy.png")
-    section
-      h2 おかだ歯科クリニック
-      p 独学でHTMLやCSSを学んでから初めてつくったホームページです。一年かけて、
+      a(href="https://okada-dental.org/")
+        img(class="preview lazy" data-src=imgPath+"/"+key+"/odc.png" src=imgPath+"/"+key+"/odc-dummy.png")
+    section(class=key+"__main__block__disc")
+      h2(class=key+"__main__block__disc__siteName")
+        a(href="https://okada-dental.org/") おかだ歯科クリニック
+      p 独学で初めて本格的につくったホームページです。2019年12月から2020年6月まで半年かけて試行錯誤しながら制作しました。この制作を通して学んだことや感じたことをまとめます。
+      h3(class=key+"__main__block__disc__ttl")  ▎モバイルフレンドリーとレスポンシブデザイン
+      p(class=key+"__main__block__disc__stc") 背景としては、2000年頃につくられたホームページを一から作り直すという状況でした。もとのホームページは、SP用とPC用でURLが異なり、情報量やデザインにも違いが見られました。どちらかというとPC向けで、モバイルフレンドリーとは程遠いものでした。実際、<a href="https://search.google.com/search-console/about">Google Search Console</a>で見るとモバイルユーザビリティに複数のエラーが出ていました。これらのエラーを解決し、さらに、URL統一やレスポンシブ対応なども行い、モバイルフレンドリーなwebサイトにしました。
+      
+      h3(class=key+"__main__block__disc__ttl")  ▎Pugとstylusの学習
+      p(class=key+"__main__block__disc__stc") 普通にHTMLを書いていると、ヘッダーに変更が生じた際に全ページ分のHTMLファイルを修正しなければなりません。このような作業はとても非効率的であると感じたため、学習コストはかかりますが、途中から<a href="https://pugjs.org/api/getting-started.html">Pug</a>を使い始めました。記述量が減ったり、ファイルの分割管理が可能であったりとさまざまなメリットがあったため、早い段階で導入してよかったと思っています。同様の理由で、<a href="https://stylus-lang.com/">stylus</a>も使い始めました。
+      h3(class=key+"__main__block__disc__ttl")  ▎jQueryとプラグイン
+      p(class=key+"__main__block__disc__stc") 何でもCSSだけで実装できるようになることも重要なのですが、時間も限られていたので、ナビゲーションメニューやカルーセルの実装には<a href="https://jquery.com/">jQuery</a>を用いました。JavaScriptやjQueryについては少し勉強したことがあったので、この機にアウトプットできてよかったです。カルーセルに関しては、jQueryプラグインの<a href="https://kenwheeler.github.io/slick/">slick</a>を用いました。プラグインは初めて使いましたが、上手く利用することで効率良く実装できるので、今後も様々なプラグインを試してみようと思っています。
+      h3(class=key+"__main__block__disc__ttl")  ▎SEO対策とMEO対策
+      p(class=key+"__main__block__disc__stc") つくったホームページが検索結果の上位にくるように、いくつかのSEO対策を行いました。例えば、地名と一緒に検索する人が多いため、サイト名に地域名を入れるといったものです。
+      
   div(id="app" class=key+"__main__block")
     div(class=key+"__main__block__ss progressive")
-      img(class="preview lazy" data-src=imgPath+"/"+key+"/kotobasagashi.png" src=imgPath+"/"+key+"/kotobasagashi-dummy.png")
+      a(href="https://okada-dental.org/")
+        img(class="preview lazy" data-src=imgPath+"/"+key+"/kotobasagashi.png" src=imgPath+"/"+key+"/kotobasagashi-dummy.png")
     section
-      h2 ことばさがし
+      h2
+        a(href="https://okada-dental.org/") ことばさがし
       p 謎解き制作のために
