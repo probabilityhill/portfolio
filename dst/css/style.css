@@ -35,26 +35,26 @@
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\component\_heading.styl */
 .ttl--1 {
   font-family: "ROLAchan", sans-serif;
-  font-size: 150%;
+  font-size: 130%;
   font-weight: inherit;
 }
 
 /* line 6 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\component\_heading.styl */
 .ttl--2 {
   font-family: "ROLAchan", sans-serif;
-  font-size: 120%;
+  font-size: 110%;
   font-weight: inherit;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
 /* line 12 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\component\_heading.styl */
   .ttl--1 {
-    font-size: 250%;
+    font-size: 200%;
   }
 
 /* line 14 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\component\_heading.styl */
   .ttl--2 {
-    font-size: 200%;
+    font-size: 180%;
   }
 }
 
@@ -516,7 +516,7 @@ li {
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 .headerSiteName {
   left: 0;
-  margin: 1rem 2rem;
+  margin: 1rem;
   position: fixed;
   top: 0;
   z-index: 10000;
@@ -529,13 +529,13 @@ li {
 
 /* line 10 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 .headerMenu {
-  font-size: 120%;
+  font-size: 100%;
   font-weight: 500;
-  left: 2rem;
+  left: 1rem;
   margin: 0;
   padding-left: 0;
   position: fixed;
-  top: 5rem;
+  top: 4rem;
   z-index: 10000;
 }
 
@@ -552,9 +552,9 @@ li {
 
 /* line 26 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
   .headerMenu {
-    font-size: 160%;
+    font-size: 140%;
     left: 3rem;
-    top: 10rem;
+    top: 8rem;
   }
 }
 
@@ -594,7 +594,7 @@ li {
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 .lp__about {
   background-color: #778600;
-  padding: 2rem 2rem 6rem;
+  padding: 2rem 1rem 6rem;
   text-align: center;
 }
 
@@ -807,7 +807,7 @@ li {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
-    padding: 15rem;
+    padding: 13rem 14rem;
   }
   .websites__main > *:nth-child(1) {
     -ms-grid-row: 1;
