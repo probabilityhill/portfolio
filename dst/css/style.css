@@ -1,5 +1,5 @@
 
-/* line 34 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\style.styl */
+/* line 23 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\style.styl */
 
 /* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
 
@@ -449,7 +449,7 @@ body {
 
 /* line 14 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\foundation\_base.styl */
   body {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 @media print, screen and (min-width: 1025px) {
@@ -514,56 +514,50 @@ li {
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
-.headerSiteName {
-  left: 0;
-  margin: 1rem;
+.header {
+  left: 1rem;
   position: fixed;
-  top: 0;
+  top: 1rem;
   z-index: 10000;
 }
 
 /* line 7 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+.headerSiteName {
+  margin: 0;
+}
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 .headerSiteName a:hover {
   color: inherit;
 }
 
-/* line 10 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+/* line 12 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 .headerMenu {
   font-size: 100%;
   font-weight: 500;
-  left: 1rem;
   margin: 0;
-  padding-left: 0;
-  position: fixed;
-  top: 4rem;
-  z-index: 10000;
+  padding: 0.5rem 0 0;
 }
 
-/* line 19 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+/* line 17 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 .headerMenu__here {
   color: #c5da21;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 24 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
-  .headerSiteName {
-    margin: 2rem 3rem;
+/* line 21 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+  .header {
+    left: 3rem;
+    top: 2rem;
   }
 
-/* line 26 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+/* line 24 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
   .headerMenu {
     font-size: 140%;
-    left: 3rem;
-    top: 8rem;
   }
 }
 
-/* line 27 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\style.styl */
-/*
-@import "common/_gnav"
-*/
-
-/* line 29 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
+/* line 25 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_footer.styl */
 
@@ -761,7 +755,7 @@ li {
 
 /* line 2 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
 .websites__main {
-  padding: 8rem;
+  padding: 6rem 8rem;
 }
 
 /* line 4 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
@@ -807,7 +801,7 @@ li {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
-    padding: 13rem 14rem;
+    padding: 12rem 14rem;
   }
   .websites__main > *:nth-child(1) {
     -ms-grid-row: 1;

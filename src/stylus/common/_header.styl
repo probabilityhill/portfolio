@@ -1,29 +1,25 @@
-.headerSiteName
-  left: 0
-  margin: 1rem
+.header
+  left: 1rem
   position: fixed
-  top: 0
+  top: 1rem
   z-index: 10000
+
+.headerSiteName
+  margin: 0
   & a:hover
     color inherit
 
 .headerMenu
   font-size: 100%
   font-weight: 500
-  left: 1rem
   margin: 0
-  padding-left: 0
-  position: fixed
-  top: 4rem
-  z-index: 10000
+  padding: .5rem 0 0
   &__here
     color c-theme-1
 
-
 +ls()
-  .headerSiteName
-    margin: 2rem 3rem
+  .header
+    left: 3rem
+    top: 2rem
   .headerMenu
     font-size: 140%
-    left: 3rem
-    top: 8rem
