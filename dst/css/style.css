@@ -755,7 +755,7 @@ li {
 
 /* line 2 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
 .websites__main {
-  padding: 6rem 8rem;
+  padding: 6rem 3rem 6rem 8rem;
 }
 
 /* line 4 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
@@ -766,32 +766,38 @@ li {
 /* line 6 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
 
 /* line 7 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
-.websites__main__block__disc__siteName {
+.websites__main__block__desc__siteName {
   color: #f6f117;
   font-weight: 500;
+  margin: 0.5rem 0;
 }
 
-/* line 10 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
-.websites__main__block__disc__ttl {
+/* line 11 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block__desc__ttl {
   font-weight: 500;
   margin-bottom: 0;
 }
 
-/* line 13 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
-.websites__main__block__disc__stc {
+/* line 14 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block__desc__stc {
   margin: 1rem 0;
 }
 
-/* line 15 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
-.websites__main__block__disc__stc a {
+/* line 16 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block__desc__stc a {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+.websites__main__block__ss.mark {
+  margin-top: 3rem;
+}
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 19 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+/* line 23 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
 
-/* line 20 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+/* line 24 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
   .websites__main {
     display: -ms-grid;
     display: grid;
@@ -799,30 +805,24 @@ li {
     grid-column-gap: 8rem;
     -ms-grid-columns: 1fr 8rem 1fr;
     grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
     padding: 12rem 14rem;
   }
-  .websites__main > *:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-  .websites__main > *:nth-child(2) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;
-  }
-  .websites__main > *:nth-child(3) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-  }
-  .websites__main > *:nth-child(4) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 3;
-  }
 
-/* line 27 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+/* line 30 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
   .websites__main__block {
     padding: 0;
+  }
+
+/* line 32 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+
+/* line 33 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+  .websites__main__block__desc__details {
+    margin-bottom: 3rem;
+  }
+
+/* line 35 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
+  .websites__main__block__ss.mark {
+    margin-top: 5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

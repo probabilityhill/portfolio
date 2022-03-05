@@ -10,33 +10,49 @@ block contents
     div(class=key+"__main__block__ss progressive")
       a(href="https://okada-dental.org/")
         img(class="preview lazy" data-src=imgPath+"/"+key+"/odc.png" src=imgPath+"/"+key+"/odc-dummy.png")
-    section(class=key+"__main__block__disc")
-      h2(class=key+"__main__block__disc__siteName")
+    section(class=key+"__main__block__desc")
+      h2(class=key+"__main__block__desc__siteName")
         a(href="https://okada-dental.org/") おかだ歯科クリニック
-      p 独学で初めて本格的につくったホームページです。2019年12月から2020年6月まで半年かけて試行錯誤しながら制作しました。この制作を通して学んだことや感じたことをまとめます。
-      h3(class=key+"__main__block__disc__ttl")  ▎モバイルフレンドリーとレスポンシブデザイン
-      p(class=key+"__main__block__disc__stc") 背景としては、依頼人が2000年頃につくったホームページを一から作り直すという状況でした。もとのホームページは、SP用とPC用でURLが異なり、情報量やデザインにも違いが見られました。どちらかというとPC向けで、モバイルフレンドリーとは程遠いものでした。実際、<a href="https://search.google.com/search-console/about">Google Search Console</a>で見るとモバイルユーザビリティに複数のエラーが出ていました。これらのエラーを解決し、さらに、URL統一やレスポンシブ対応なども行い、モバイルフレンドリーなwebサイトにしました。
-      
-      h3(class=key+"__main__block__disc__ttl")  ▎Pugとstylusの学習
-      p(class=key+"__main__block__disc__stc") 普通にHTMLを書いていると、ヘッダーに変更が生じた際に全ページ分のHTMLファイルを修正しなければなりません。このような作業はとても非効率的であると感じたため、学習コストはかかりますが、途中から<a href="https://pugjs.org/api/getting-started.html">Pug</a>を使い始めました。記述量が減ったり、ファイルの分割管理が可能であったりとさまざまなメリットがあったため、早い段階で導入してよかったと思っています。同様の理由で、<a href="https://stylus-lang.com/">stylus</a>も使い始めました。
-      h3(class=key+"__main__block__disc__ttl")  ▎jQueryとプラグイン
-      p(class=key+"__main__block__disc__stc") 何でもCSSだけで実装できるようになることも重要なのですが、時間も限られていたので、ナビゲーションメニューやカルーセルの実装には<a href="https://jquery.com/">jQuery</a>を用いました。JavaScriptやjQueryについては少し勉強したことがあったので、この機にアウトプットできてよかったです。カルーセルに関しては、jQueryプラグインの<a href="https://kenwheeler.github.io/slick/">slick</a>を用いました。プラグインは初めて使いましたが、上手く利用することで効率良く実装できるので、今後も様々なプラグインを試してみようと思っています。
-      h3(class=key+"__main__block__disc__ttl")  ▎ドメイン移管とサーバー移管
-      p(class=key+"__main__block__disc__stc") これまで業者に任せていたサーバーの管理・運用を代わりに請け負うことになったため、その会社から他社へのドメインとサーバーの移管が必要になりました。特殊な状況ということもあり手続きが複雑で、移管に2週間ほどかかりました。ホームページ制作よりもたいへんでした。
-      h3(class=key+"__main__block__disc__ttl")  ▎SEO対策とMEO対策
-      p(class=key+"__main__block__disc__stc") つくったホームページが検索結果の上位にくるように、いくつかのSEO対策を行いました。具体的には、「地域名＋業種」で検索する人が多いためサイト名やページ内に地域名を入れたり、なるべくユーザーフレンドリーなデザインにしたりといった工夫をしました。また、<a href="https://www.google.co.jp/maps/">Google Maps</a>での検索結果の順位を上げるために、<a href="https://www.google.com/intl/jp/business/">Google Business Profile</a>を充実させました。マップの検索結果の方がホームページより上位に来るため、MEO対策の方が重要であると感じましたが、なかなか思い通りの順位にはなっていないです。
+      details(class=key+"__main__block__desc__details")
+        summary 詳細        
+        p 2001年に作ったHP(ホームページ)を一から作り直してほしいという依頼を受けて制作したもので、2019年12月から2020年6月まで約半年かけて制作しました。独学で初めて本格的に作ったHPでもあります。
+        h3(class=key+"__main__block__desc__ttl")  ▎モバイルフレンドリーとレスポンシブデザイン
+        p(class=key+"__main__block__desc__stc") もとのHPはSP(スマートフォン)用とPC(パソコン)用で情報量やデザインに違いが見られ、モバイルフレンドリーとは程遠いものでした。実際、<a href="https://search.google.com/search-console/about">Google Search Console</a>で見るとモバイルユーザビリティに複数のエラーが出ていたので、これらを解決しました。さらに、SP用とPC用で別々だったURLを統一し、レスポンシブ対応も行いました。      
+        h3(class=key+"__main__block__desc__ttl")  ▎Pugとstylusの学習
+        p(class=key+"__main__block__desc__stc") 普通にHTMLを書いていて効率が悪いと感じた作業がいくつかあったため、途中から<a href="https://pugjs.org/api/getting-started.html">Pug</a>を使い始めました。記述量が減ったり、ファイルの分割管理が可能であったりと様々なメリットがあったため、学習コストはかかりましたが早い段階で導入してよかったと思っています。同様の理由で<a href="https://stylus-lang.com/">stylus</a>も使い始めました。
+        h3(class=key+"__main__block__desc__ttl")  ▎jQueryとプラグイン
+        p(class=key+"__main__block__desc__stc") ナビゲーションメニューやカルーセルの実装には<a href="https://jquery.com/">jQuery</a>を用いました。JavaScriptやjQueryについては少し勉強したことがあったので、この機にアウトプットできてよかったです。カルーセルに関しては、jQueryプラグインの<a href="https://kenwheeler.github.io/slick/">slick</a>を用いました。プラグインは初めて使いましたが、上手く利用することで効率良く実装できるので、今後も様々なプラグインを試してみようと思っています。
+        h3(class=key+"__main__block__desc__ttl")  ▎ドメイン移管とサーバー移管
+        p(class=key+"__main__block__desc__stc") これまで業者に任せていたサーバーの管理・運用を代わりに請け負うことになったため、その会社から他社へのドメインとサーバーの移管が必要になりました。特殊な状況ということもあり手続きが複雑で、移管に2週間ほどかかりました。HP制作よりも大変でした。
+        h3(class=key+"__main__block__desc__ttl")  ▎SEO対策とMEO対策
+        p(class=key+"__main__block__desc__stc") 作ったHPが検索結果の上位にくるように、いくつかのSEO対策を行いました。具体的には、「地域名＋業種」で検索する人が多いためサイト名やページ内に地域名を入れたり、なるべくユーザーフレンドリーなデザインにしたりといった工夫をしました。もともとは検索結果の2～3ページ目に載っていましたが、現在は1ページ目に載っているため、対策の効果があったと思われます。また、<a href="https://www.google.co.jp/maps/">Google Maps</a>での検索結果の順位を上げるために、<a href="https://www.google.com/intl/jp/business/">Google Business Profile</a>を充実させました。マップの検索結果の方がHPより上位に来るため、MEO対策のも割と重要であると感じましたが、なかなか思い通りの順位にはなっていません。
       
   div(id="app" class=key+"__main__block")
     div(class=key+"__main__block__ss progressive")
       a(href="https://probabilityhill.pythonanywhere.com/")
         img(class="preview lazy" data-src=imgPath+"/"+key+"/kotobasagashi.png" src=imgPath+"/"+key+"/kotobasagashi-dummy.png")
     section
-      h2(class=key+"__main__block__disc__siteName")
+      h2(class=key+"__main__block__desc__siteName")
         a(href="https://probabilityhill.pythonanywhere.com/") ことばさがし
-      p 謎解き制作において、複数の条件を満たす単語を探すことがよくあります。頭の中で考えているだけでは思いつかない場合もあるので、辞書の中から条件に合う単語を取り出せるようにすることで謎解き制作の効率化を図ろうと思い、自分用にこのwebアプリケーションを作りました。
-      h3(class=key+"__main__block__disc__ttl")  ▎Flask
-      p(class=key+"__main__block__disc__stc") Python用のWebアプリケーションフレームワークである<a href="https://palletsprojects.com/p/flask/">Flask</a>を用いました。動的なwebサイトの制作は初めてでしたが、Flaskはとても使いやすかったです。テンプレートの継承がPugと似たような考え方だったのですぐに慣れました。もともとPythonの記法を知っていたのも大きいかもしれません。
-      h3(class=key+"__main__block__disc__ttl")  ▎データ集め
-      p(class=key+"__main__block__disc__stc") データは<a href="https://ja.wikipedia.org/wiki/">Wikipedia</a>と<a href="http://pddlib.v.wol.ne.jp/japanese/frame.htm">百科辞書</a>の見出し語から集めました。Wikipediaには<a href="https://ja.wikipedia.org/wiki/Wikipedia:%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89">データベースダウンロード</a>というページがあり、ここで様々なWikipediaデータをダウンロードすることができます。百科辞書を使用させていただいた<a href="http://pddlib.v.wol.ne.jp/default.htm">私立ＰＤＤ図書館</a>は著作権フリーの画像・図表や日本文学なども提供しているようです。
-      h3(class=key+"__main__block__disc__ttl")  ▎スクロールボタン
-      p(class=key+"__main__block__disc__stc") ～～～
+      details(class=key+"__main__block__desc__details")
+        summary 詳細        
+        p 正規表現を用いた単語検索ができるWebアプリケーションです。謎解き制作において、複数の条件を満たす単語を探すことがよくあります。自力で考えても時間がかかったり思いつかない場合もあるので、謎解き制作の効率化を図ろうと思い、このWebアプリケーションを作りました。
+        h3(class=key+"__main__block__desc__ttl")  ▎Flask
+        p(class=key+"__main__block__desc__stc") Python用のWebアプリケーションフレームワークである<a href="https://palletsprojects.com/p/flask/">Flask</a>を用いました。動的なWebサイトの制作は初めてでしたが、Flaskはとても使いやすかったです。テンプレートの継承はPugにもあったのですぐに慣れました。
+        h3(class=key+"__main__block__desc__ttl")  ▎データ集め
+        p(class=key+"__main__block__desc__stc") データは<a href="https://ja.wikipedia.org/wiki/">Wikipedia</a>と<a href="http://pddlib.v.wol.ne.jp/japanese/frame.htm">百科辞書</a>の見出し語から集めました。Wikipediaには<a href="https://ja.wikipedia.org/wiki/Wikipedia:%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89">データベースダウンロード</a>というページがあり、ここで様々なWikipediaデータをダウンロードすることができます。百科辞書を提供している<a href="http://pddlib.v.wol.ne.jp/default.htm">私立ＰＤＤ図書館</a>は著作権フリーの画像・図表や日本文学なども提供しているようです。
+          
+  div(id="app" class=key+"__main__block")
+    div(class=key+"__main__block__ss progressive")
+      a(href="https://words-that-describe-me.herokuapp.com/")
+        img(class="preview lazy" data-src=imgPath+"/"+key+"/words-that-describe-me.png" src=imgPath+"/"+key+"/words-that-describe-me-dummy.png")
+    section
+      h2(class=key+"__main__block__desc__siteName")
+        a(href="https://words-that-describe-me.herokuapp.com/") 私を構成する100の要素｜作成ツール
+      details(class=key+"__main__block__desc__details")
+        summary 詳細
+        p 正規表現を用いた単語検索ができるWebアプリケーションです。謎解き制作において、複数の条件を満たす単語を探すことがよくあります。自力で考えても時間がかかったり思いつかない場合もあるので、謎解き制作の効率化を図ろうと思い、このWebアプリケーションを作りました。
+        h3(class=key+"__main__block__desc__ttl")  ▎Flask
+        p(class=key+"__main__block__desc__stc") Python用のWebアプリケーションフレームワークである<a href="https://palletsprojects.com/p/flask/">Flask</a>を用いました。動的なWebサイトの制作は初めてでしたが、Flaskはとても使いやすかったです。テンプレートの継承はPugにもあったのですぐに慣れました。
+        h3(class=key+"__main__block__desc__ttl")  ▎データ集め
+        p(class=key+"__main__block__desc__stc") データは<a href="https://ja.wikipedia.org/wiki/">Wikipedia</a>と<a href="http://pddlib.v.wol.ne.jp/japanese/frame.htm">百科辞書</a>の見出し語から集めました。Wikipediaには<a href="https://ja.wikipedia.org/wiki/Wikipedia:%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89">データベースダウンロード</a>というページがあり、ここで様々なWikipediaデータをダウンロードすることができます。百科辞書を提供している<a href="http://pddlib.v.wol.ne.jp/default.htm">私立ＰＤＤ図書館</a>は著作権フリーの画像・図表や日本文学なども提供しているようです。
