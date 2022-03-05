@@ -735,130 +735,34 @@ li {
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp {
-  position: relative;
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
+.photos__main {
+  padding: 6rem 3rem 6rem 8rem;
 }
 
-/* line 3 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__01 {
-  position: relative;
-  z-index: 1;
-}
-
-/* line 6 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__02 {
-  position: relative;
-  z-index: 2;
-}
-
-/* line 9 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__03 {
-  position: relative;
-  z-index: 1;
-}
-
-/* line 12 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__04 {
-  position: relative;
-  top: -9vh;
-  z-index: 2;
-}
-
-/* line 16 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__05 {
-  position: relative;
-  top: -12vh;
-  z-index: 1;
-}
-
-/* line 20 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__06 {
-  position: relative;
-  top: -25vh;
-  z-index: 2;
-}
-
-/* line 24 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__07 {
-  position: relative;
-  top: -24vh;
-  z-index: 1;
-}
-
-/* line 28 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__08 {
-  position: relative;
-  top: -42vh;
-  z-index: 2;
-}
-
-/* line 32 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-.lp__09 {
-  position: relative;
-  top: -39vh;
-  z-index: 1;
-}
-@media print, screen and (min-width: 520px) {
-
-/* line 38 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-
-/* line 39 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__04 {
-    top: -12vh;
-  }
-
-/* line 41 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__06 {
-    top: -29vh;
-  }
-
-/* line 43 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__08 {
-    top: -46vh;
-  }
-
-/* line 45 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__09 {
-    top: -37vh;
-  }
+/* line 4 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
+.photos__main__block {
+  padding: 1rem 0;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 49 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
+/* line 8 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
 
-/* line 50 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__03 {
-    top: 3vh;
+/* line 9 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
+  .photos__main {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: row;
+    grid-column-gap: 8rem;
+    -ms-grid-columns: 1fr 8rem 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 12rem 5rem 12rem 14rem;
   }
 
-/* line 52 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__04 {
-    top: -20vh;
-  }
-
-/* line 54 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__05 {
-    top: -6vh;
-  }
-
-/* line 56 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__06 {
-    top: -40vh;
-  }
-
-/* line 58 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__07 {
-    top: -17vh;
-  }
-
-/* line 60 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__08 {
-    top: -63vh;
-  }
-
-/* line 62 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
-  .lp__09 {
-    top: -31vh;
+/* line 15 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_photos.styl */
+  .photos__main__block {
+    padding: 3rem 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
