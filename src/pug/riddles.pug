@@ -6,6 +6,9 @@ block vars
   - var page = pages[key]
 
 block contents
-  div(id="app")
-    div(class="progressive")
-      img(class="preview lazy" data-src=imgPath+"/"+key+"/marble.png" src=imgPath+"/"+key+"/marble-dummy.png")
+  div(id="app" class=key+"__main__block")
+    div(class=key+"__main__block__riddles progressive")
+      img(src=imgPath+"/common/coming-soon.jpg" alt="coming soon")  
+  div(id="app" class=key+"__main__block")
+    div(class=key+"__main__block__riddles progressive")
+      img(src=imgPath+"/common/coming-soon.jpg" alt="coming soon")  
