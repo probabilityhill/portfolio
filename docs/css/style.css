@@ -607,15 +607,21 @@ li {
 .lp__about__txt__h {
   font-weight: 500;
 }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+.lp__about__txt a {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
 
-/* line 14 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 16 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
   .lp__about {
     padding: 2rem 3rem 8rem;
   }
 }
 
-/* line 15 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
+/* line 17 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_top.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_websites.styl */
 
