@@ -509,7 +509,12 @@ li {
   display: none;
 }
 
-/* line 46 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\foundation\_base.styl */
+/* line 50 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\foundation\_base.styl */
+#lightbox .lb-image {
+  border: none;
+}
+
+/* line 51 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\foundation\_base.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\common\_header.styl */
 
