@@ -735,13 +735,13 @@ li {
 
 /* line 13 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_illustrations.styl */
   .illustrations__main__block__item {
-    width: calc((100vw - 5rem - 14rem - 2rem - 2rem) / 2);
+    width: calc((100vw - 5rem - 14rem - 3rem - 2rem) / 2);
   }
 
 /* line 15 : C:\Users\nao\Desktop\code\Github\okadanao\src\stylus\page\_illustrations.styl */
   .illustrations__main__block__item:nth-child(odd) {
     float: left;
-    margin-right: 2rem;
+    margin-right: 3rem;
   }
 }
 
