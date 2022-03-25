@@ -1,16 +1,17 @@
 .illustrations
   &__main
-    padding 6rem 3rem 6rem 8rem
+    padding 7rem 3rem 6rem 8rem
     &__block
-      padding 1rem 0
+      &__item
+        margin-bottom 3rem
 
 +ls()
   .illustrations
     &__main
-      display grid
-      grid-auto-flow row
-      grid-column-gap 8rem
-      grid-template-columns 1fr 1fr
       padding 12rem 5rem 12rem 14rem
       &__block
-        padding 3rem 0
+        &__item
+          width calc((100vw - 5rem - 14rem - 2rem - 2rem) / 2)
+          &:nth-child(odd)
+            float left
+            margin-right 2rem
