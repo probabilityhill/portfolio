@@ -1,0 +1,45 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "linebot"
+  - var page = pages[key]
+
+block contents
+  div(id="app" class=key+"__main__block")
+    div(class=key+"__main__block__ss progressive")
+      a(href="https://okada-dental.org/")
+        img(class="preview lazy" data-src=imgPath+"/"+key+"/odc.png" src=imgPath+"/"+key+"/odc-dummy.png")
+    section(class=key+"__main__block__desc")
+      h2(class=key+"__main__block__desc__siteName")
+        a(href="https://okada-dental.org/") LINE謎「てぬき」
+      details(class=key+"__main__block__desc__details")
+        summary 詳細        
+        p 2001年に作ったHP(ホームページ)を一から作り直してほしいという依頼を受けて制作したもので、2019年12月から2020年6月まで約半年かけて制作しました。独学で初めて本格的に作ったHPでもあります。
+        h3(class=key+"__main__block__desc__ttl")  ▎モバイルフレンドリーとレスポンシブデザイン
+        p(class=key+"__main__block__desc__stc") もとのHPはSP(スマートフォン)用とPC(パソコン)用で情報量やデザインに違いが見られ、モバイルフレンドリーとは程遠いものでした。実際、<a href="https://search.google.com/search-console/about">Google Search Console</a>で見るとモバイルユーザビリティに複数のエラーが出ていたので、これらを解決しました。さらに、SP用とPC用で別々だったURLを統一し、レスポンシブ対応も行いました。      
+      
+  div(id="app" class=key+"__main__block")
+    div(class=key+"__main__block__ss progressive")
+      a(href="https://probabilityhill.pythonanywhere.com/")
+        img(class="preview lazy" data-src=imgPath+"/"+key+"/kotobasagashi.png" src=imgPath+"/"+key+"/kotobasagashi-dummy.png")
+    section
+      h2(class=key+"__main__block__desc__siteName")
+        a(href="https://probabilityhill.pythonanywhere.com/") LINE謎「まるなぞ」
+      details(class=key+"__main__block__desc__details")
+        summary 詳細        
+        p 正規表現を用いた単語検索ができるWebアプリケーションです。謎解き制作において、複数の条件を満たす単語を探すことがよくあります。自力で考えても時間がかかったり思いつかない場合もあるので、謎解き制作の効率化を図ろうと思い、このWebアプリケーションを作りました。
+        h3(class=key+"__main__block__desc__ttl")  ▎Flask
+        p(class=key+"__main__block__desc__stc") Python用のWebアプリケーションフレームワークである<a href="https://palletsprojects.com/p/flask/">Flask</a>を用いました。動的なWebサイトの制作は初めてでしたが、Flaskはとても使いやすかったです。テンプレートの継承はPugにもあったのですぐに慣れました。
+          
+  div(id="app" class=key+"__main__block")
+    div(class=key+"__main__block__ss progressive")
+      a(href="https://words-that-describe-me.herokuapp.com/")
+        img(class="preview lazy" data-src=imgPath+"/"+key+"/words-that-describe-me.png" src=imgPath+"/"+key+"/words-that-describe-me-dummy.png")
+    section
+      h2(class=key+"__main__block__desc__siteName")
+        a(href="https://words-that-describe-me.herokuapp.com/") 単語検索「ことばさがし」
+      details(class=key+"__main__block__desc__details")
+        summary 詳細（coming soon...）
+        img(src=imgPath+"/common/coming-soon.jpg" alt="coming soon")  
+ 
