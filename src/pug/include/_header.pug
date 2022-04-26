@@ -13,6 +13,11 @@ ul(class="headerMenu")
     else
       a(href=pages.websites.url) websites
   li
+    if key == "linebot"
+      a(href=pages.websites.url class="headerMenu__here") line bot
+    else
+      a(href=pages.websites.url) line bot
+  li
     if key == "photos"
       a(href=pages.photos.url class="headerMenu__here") photos
     else
