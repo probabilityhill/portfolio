@@ -4,26 +4,26 @@ h1(class="headerSiteName ttl--1")
 ul(class="headerMenu")
   li
     if key == "illustrations"
-      a(href=pages.illustrations.url class="headerMenu__here") illustrations
+      a(href=pages.illustrations.url class="headerMenu__here") #{pages.illustrations.name}
     else
-      a(href=pages.illustrations.url) illustrations
+      a(href=pages.illustrations.url) #{pages.illustrations.name}
   li
     if key == "websites"
-      a(href=pages.websites.url class="headerMenu__here") websites
+      a(href=pages.websites.url class="headerMenu__here") #{pages.websites.name}
     else
-      a(href=pages.websites.url) websites
+      a(href=pages.websites.url) #{pages.websites.name}
   li
     if key == "linebot"
-      a(href=pages.websites.url class="headerMenu__here") line bot
+      a(href=pages.linebot.url class="headerMenu__here") #{pages.linebot.name}
     else
-      a(href=pages.websites.url) line bot
+      a(href=pages.linebot.url) #{pages.illustrations.name}
   li
     if key == "photos"
-      a(href=pages.photos.url class="headerMenu__here") photos
+      a(href=pages.photos.url class="headerMenu__here") #{pages.photos.name}
     else
-      a(href=pages.photos.url) photos
+      a(href=pages.photos.url) #{pages.photos.name}
   li
     if key == "riddles"
-      a(href=pages.riddles.url class="headerMenu__here") riddles
+      a(href=pages.riddles.url class="headerMenu__here") #{pages.riddles.name}
     else
-      a(href=pages.riddles.url) riddles
+      a(href=pages.riddles.url) #{pages.riddles.name}
