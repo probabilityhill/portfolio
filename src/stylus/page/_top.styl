@@ -11,11 +11,16 @@
       font-weight 500
     & a
       text-decoration underline dotted
-  & img
-    padding 2rem    
+  &__imgs
+    margin 2rem auto
+    & img
+      padding-top 2rem
 
 +ls()
   .lp__about
     padding 2rem 3rem 8rem
-    & img
-      width 60%
+    &__imgs
+      margin 5rem auto
+      & img
+        padding 2rem
+        width 40%
