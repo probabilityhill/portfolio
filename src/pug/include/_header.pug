@@ -18,12 +18,12 @@ ul(class="headerMenu")
     else
       a(href=pages.linebot.url) #{pages.linebot.name}
   li
-    if key == "photos"
-      a(href=pages.photos.url class="headerMenu__here") #{pages.photos.name}
-    else
-      a(href=pages.photos.url) #{pages.photos.name}
-  li
     if key == "riddles"
       a(href=pages.riddles.url class="headerMenu__here") #{pages.riddles.name}
     else
       a(href=pages.riddles.url) #{pages.riddles.name}
+  li
+    if key == "photos"
+      a(href=pages.photos.url class="headerMenu__here") #{pages.photos.name}
+    else
+      a(href=pages.photos.url) #{pages.photos.name}
