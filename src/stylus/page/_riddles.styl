@@ -1,21 +1,16 @@
-.riddles
-  &__main
-    &__block
-      padding 5rem 2rem 6rem 4rem
-      &__riddles
-        padding 1rem 0
+.twRiddles
+  padding 5rem 2rem 6rem 4rem
+  &__item
+    padding 1rem 0
 
 #twitter-widget-0
   width 100%
 
 +ls()
-  .riddles
-    &__main
-      &__block
-        display grid
-        grid-auto-flow row
-        grid-column-gap 5rem
-        grid-template-columns 1fr 1fr
-        padding 6rem 6rem 8rem 12rem
-        &__riddles
-          padding 2rem 0
+  .twRiddles
+    display grid
+    grid-auto-flow row
+    grid-column-gap 5rem
+    grid-template-columns 1fr 1fr
+    &__item
+      padding 2rem 0
