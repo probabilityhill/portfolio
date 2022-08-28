@@ -27,3 +27,8 @@ ul(class="headerMenu")
       a(href=pages.photos.url class="headerMenu__here") #{pages.photos.name}
     else
       a(href=pages.photos.url) #{pages.photos.name}
+  li
+    if key == "photos"
+      a(href=pages.photos.url class="headerMenu__here") #{pages.photos.name}
+    else
+      a(href=pages.photos.url) #{pages.photos.name}
