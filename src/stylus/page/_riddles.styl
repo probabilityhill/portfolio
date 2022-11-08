@@ -1,14 +1,17 @@
 .riddles__content
-  margin-bottom 3rem
+  margin-bottom 5rem
   & h2
     margin 1rem
     text-align center
 
 .lineRiddles
-  &__url
-    font-size 60%
-  & img
-    width 60%
+  &__item
+    padding-top 1rem
+    &__url
+      font-size 70%
+      & a
+        text-underline-offset .2rem
+        text-decoration underline dotted
 
 .twRiddles
   &__item
@@ -19,17 +22,21 @@
 
 +ls()
   .riddles__content
-    margin-bottom 8rem
+    margin-bottom 15rem
   .lineRiddles
+    display grid
+    grid-auto-flow row
+    grid-column-gap 15rem
+    grid-template-columns 1fr 1fr
     padding-top 3rem
-    &__url
-      font-size inherit
-    & img
-      width 30%
+    &__item
+      padding-top 3rem
+      &__url
+        font-size 90%
   .twRiddles
     display grid
     grid-auto-flow row
-    column-gap 7rem
+    grid-column-gap 7rem
     grid-template-columns 1fr 1fr
     padding-top 3rem
     &__item
