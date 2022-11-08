@@ -6,6 +6,7 @@ block vars
   - var page = pages[key]
 
 block contents
+  p.note ＊画像をクリックすると拡大する。（拡大中は画像の左/右側をクリックして移動）
   div(id="app" class=key+"__main__block")
     div(class=key+"__main__block__item progressive")
       a(href=imgPath+"/"+key+"/wonderland.jpg", data-lightbox="group")
