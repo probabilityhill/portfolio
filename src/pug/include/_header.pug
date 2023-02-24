@@ -3,30 +3,20 @@ h1(class="headerSiteName ttl--1")
 
 ul(class="headerMenu")
   li
-    if key == "illustrations"
-      a(href=pages.illustrations.url class="headerMenu__here") #{pages.illustrations.name}
+    if key == "works"
+      a(href=pages.works.url class="headerMenu__here") #{pages.works.name}
     else
-      a(href=pages.illustrations.url) #{pages.illustrations.name}
+      a(href=pages.works.url) #{pages.works.name}
   li
-    if key == "websites"
-      a(href=pages.websites.url class="headerMenu__here") #{pages.websites.name}
+    if key == "pics"
+      a(href=pages.pics.url class="headerMenu__here") #{pages.pics.name}
     else
-      a(href=pages.websites.url) #{pages.websites.name}
+      a(href=pages.pics.url) #{pages.pics.name}
   li
-    if key == "linebot"
-      a(href=pages.linebot.url class="headerMenu__here") #{pages.linebot.name}
+    if key == "nazo"
+      a(href=pages.nazo.url class="headerMenu__here") #{pages.nazo.name}
     else
-      a(href=pages.linebot.url) #{pages.linebot.name}
-  li
-    if key == "photos"
-      a(href=pages.photos.url class="headerMenu__here") #{pages.photos.name}
-    else
-      a(href=pages.photos.url) #{pages.photos.name}
-  li
-    if key == "riddles"
-      a(href=pages.riddles.url class="headerMenu__here") #{pages.riddles.name}
-    else
-      a(href=pages.riddles.url) #{pages.riddles.name}
+      a(href=pages.nazo.url) #{pages.nazo.name}
   li.headerMenu__emoji
     if key == "eye"
       a(href=pages.eye.url class="headerMenu__here") #{pages.eye.name}
