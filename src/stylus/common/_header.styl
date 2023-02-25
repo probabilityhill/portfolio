@@ -1,6 +1,7 @@
 .header
   left: 1rem
   position: fixed
+  text-shadow: 0 0 .1rem c_txt_1, 0 0 1rem c_txt_1
   top: 1rem
   z-index: 10000
 
@@ -8,9 +9,10 @@
   font-family: "Tilt Neon", cursive
   font-size: 180%
   margin: 0
-  text-shadow: 0 0 .3rem c-txt-1, 0 0 .4rem c-purple, 0 0 .7rem c-purple, 0 0 .8rem c-purple, 0 0 1rem c-purple, 0 0 1.5rem c-purple
   & a:hover
-    color inherit
+    text-shadow: 0 0 .1rem c_txt_1, 0 0 .4rem c_purple, 0 0 .8rem c_purple, 0 0 1rem c_purple
+.headerSiteNameHere
+  text-shadow: 0 0 .1rem c_txt_1, 0 0 .4rem c_purple, 0 0 .8rem c_purple, 0 0 1rem c_purple
 
 .headerMenu
   font-family: f-ttl, sans-serif
@@ -18,11 +20,10 @@
   font-size: 150%
   margin: 0
   padding: .5rem 0 0
-  text-shadow: 0 0 .1rem c-txt-1, 0 0 .4rem c-txt-1, 0 0 .8rem c-txt-1
   & a:hover
-    text-shadow: 0 0 .2rem c-txt-1, 0 0 .4rem c-cyan, 0 0 .7rem c-cyan, 0 0 .8rem c-cyan, 0 0 1rem c-cyan, 0 0 1.5rem c-cyan
+    text-shadow: 0 0 .1rem c_txt_1, 0 0 .4rem c_cyan, 0 0 .8rem c_cyan, 0 0 1rem c_cyan
   &__here
-    text-shadow: 0 0 .2rem c-txt-1, 0 0 .4rem c-cyan, 0 0 .7rem c-cyan, 0 0 .8rem c-cyan, 0 0 1rem c-cyan, 0 0 1.5rem c-cyan
+    text-shadow: 0 0 .1rem c_txt_1, 0 0 .4rem c_cyan, 0 0 .8rem c_cyan, 0 0 1rem c_cyan
   &__emoji
     font-family: "Noto Sans Egyptian Hieroglyphs", sans-serif
     font-size 120%
