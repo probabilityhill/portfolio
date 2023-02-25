@@ -1,24 +1,34 @@
-h1(class="headerSiteName ttl--1")
+-
+  let headerSiteNameClass = "headerSiteName ttl--1";
+  let headerMenuClasses = {
+    works: {
+      liClass: "",
+      aClass: ""
+    },
+    pics: {
+      liClass: "",
+      aClass: ""
+    },
+    nazo: {
+      liClass: "",
+      aClass: ""
+    },
+    eye: {
+      liClass: "headerMenu__emoji",
+      aClass: ""
+    }
+  };
+  if(key == "top") {
+    headerSiteNameClass = "headerSiteName__here ttl--1";
+  }
+  else {
+    headerMenuClasses[key].aClass = "headerMenu__here";
+  }
+
+h1(class=headerSiteNameClass)
   a(href="index.html") #{siteName}
 
 ul(class="headerMenu")
-  li
-    if key == "works"
-      a(href=pages.works.url class="headerMenu__here") #{pages.works.name}
-    else
-      a(href=pages.works.url) #{pages.works.name}
-  li
-    if key == "pics"
-      a(href=pages.pics.url class="headerMenu__here") #{pages.pics.name}
-    else
-      a(href=pages.pics.url) #{pages.pics.name}
-  li
-    if key == "nazo"
-      a(href=pages.nazo.url class="headerMenu__here") #{pages.nazo.name}
-    else
-      a(href=pages.nazo.url) #{pages.nazo.name}
-  li.headerMenu__emoji
-    if key == "eye"
-      a(href=pages.eye.url class="headerMenu__here") #{pages.eye.name}
-    else
-      a(href=pages.eye.url) #{pages.eye.name}
+  each v, k in headerMenuClasses
+    li(class=v.liClass)
+      a(href=pages[k].url class=v.aClass) #{pages[k].name}

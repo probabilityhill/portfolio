@@ -6,21 +6,26 @@
 
 .headerSiteName
   font-family: "Tilt Neon", cursive
+  font-size: 180%
   margin: 0
+  text-shadow: 0 0 .3rem c-txt-1, 0 0 .4rem c-purple, 0 0 .7rem c-purple, 0 0 .8rem c-purple, 0 0 1rem c-purple, 0 0 1.5rem c-purple
   & a:hover
     color inherit
 
 .headerMenu
   font-family: f-ttl, sans-serif
-  font-size: 120%
+  font-weight: 500
+  font-size: 150%
   margin: 0
   padding: .5rem 0 0
+  text-shadow: 0 0 .1rem c-txt-1, 0 0 .4rem c-txt-1, 0 0 .8rem c-txt-1
+  & a:hover
+    text-shadow: 0 0 .2rem c-txt-1, 0 0 .4rem c-cyan, 0 0 .7rem c-cyan, 0 0 .8rem c-cyan, 0 0 1rem c-cyan, 0 0 1.5rem c-cyan
   &__here
-    color c-theme-1
+    text-shadow: 0 0 .2rem c-txt-1, 0 0 .4rem c-cyan, 0 0 .7rem c-cyan, 0 0 .8rem c-cyan, 0 0 1rem c-cyan, 0 0 1.5rem c-cyan
   &__emoji
     font-family: "Noto Sans Egyptian Hieroglyphs", sans-serif
-    font-size 160%
-    font-weight bold
+    font-size 120%
 
 +ls()
   .header
