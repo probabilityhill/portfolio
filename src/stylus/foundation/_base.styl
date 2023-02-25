@@ -3,13 +3,16 @@ html
   font-size: 62.5%
 
 body
-  background-color: c_bg_1
-  color: c_txt_1
-  font-family: "Zen Kaku Gothic Antique", sans-serif
   font-size: 1.4rem
   font-weight: 500
   letter-spacing: .1em
   margin: 0
+
+for page in pages
+  .{page}
+    background-color: c_ + page + _bg_1
+    color: c_ + page + _txt_1
+    font-family: ff_ + page
 
 body:not(.top)
   padding 5rem 4rem
