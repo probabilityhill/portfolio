@@ -9,10 +9,9 @@
   font-family: "Tilt Neon", cursive
   font-size: 180%
   margin: 0
-  & a:hover
-    text-shadow: 0 0 .1rem c_txt_1, 0 0 .4rem c_purple, 0 0 .8rem c_purple, 0 0 1rem c_purple
-.headerSiteNameHere
-  text-shadow: 0 0 .1rem c_txt_1, 0 0 .4rem c_purple, 0 0 .8rem c_purple, 0 0 1rem c_purple
+
+.headerSiteName a:hover, .headerSiteNameHere
+  text-shadow: .3rem 0 .8rem c_pink_glitch, -.3rem 0 .8rem c_cyan_glitch, .2rem 0 c_pink_glitch, -.2rem 0 c_cyan_glitch
 
 .headerMenu
   font-family: f-ttl, sans-serif
@@ -20,9 +19,8 @@
   font-size: 150%
   margin: 0
   padding: .5rem 0 0
-  & a:hover
-    text-shadow: 0 0 .1rem c_txt_1, 0 0 .4rem c_cyan, 0 0 .8rem c_cyan, 0 0 1rem c_cyan
-  &__here
+  & a:hover, &__here
+    color c_cyan_light
     text-shadow: 0 0 .1rem c_txt_1, 0 0 .4rem c_cyan, 0 0 .8rem c_cyan, 0 0 1rem c_cyan
   &__emoji
     font-family: "Noto Sans Egyptian Hieroglyphs", sans-serif
@@ -32,5 +30,7 @@
   .header
     left: 2.5rem
     top: 1.5rem
+  .headerSiteName
+    font-size 250%
   .headerMenu
-    font-size: 120%
+    font-size: 200%
