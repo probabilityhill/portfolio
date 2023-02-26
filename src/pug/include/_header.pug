@@ -36,6 +36,6 @@ h1(class="headerSiteName")
   a(href="index.html") #{siteName}
 
 ul(class="headerMenu")
-  for page in pageNames
+  each v, page in pages
     li
       a(href=pages[page].url) #{headerMenuNames[key][page]}
