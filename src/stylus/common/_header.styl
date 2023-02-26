@@ -1,9 +1,9 @@
 for page in pages
   .{page}
     .headerSiteName
-      font-family: ff_ + (page + _siteName)
+      font-family: ff_pages[page].siteName
     .headerMenu
-      font-family: ff_ + (page + _headerMenu)
+      font-family: ff_pages[page].headerMenu
 
 .{pages[0]}
   .header
@@ -23,7 +23,7 @@ for page in pages
     font-size: 160%
     margin: 0
     padding: .5rem 0 0
-    text-shadow: 0 0 .1rem c_top_txt_1, 0 0 .4rem c_top_cyan, 0 0 .8rem c_top_cyan, 0 0 1rem c_top_cyan
+    text-shadow: 0 0 .1rem c_top_white, 0 0 .4rem c_top_cyan, 0 0 .8rem c_top_cyan, 0 0 1rem c_top_cyan
     & a:hover, &__here
       color c_top_cyan_light
     &__emoji
