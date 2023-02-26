@@ -1,34 +1,41 @@
 -
-  let headerSiteNameClass = "headerSiteName";
-  let headerMenuClasses = {
+  let headerMenuNames = {
+    top: {
+      works: "Works",
+      pics: "Pics",
+      nazo: "Nazo",
+      eye: "𓁹"
+    },
     works: {
-      liClass: "",
-      aClass: ""
+      works: "作品",
+      pics: "写真",
+      nazo: "謎",
+      eye: "●"
     },
     pics: {
-      liClass: "",
-      aClass: ""
+      works: "",
+      pics: "",
+      nazo: "",
+      eye: ""
     },
     nazo: {
-      liClass: "",
-      aClass: ""
+      works: "",
+      pics: "",
+      nazo: "",
+      eye: ""
     },
     eye: {
-      liClass: "headerMenu__emoji",
-      aClass: ""
+      works: "",
+      pics: "",
+      nazo: "",
+      eye: ""
     }
   };
-  if(key == "top") {
-    headerSiteNameClass = "headerSiteName headerSiteNameHere";
-  }
-  else {
-    headerMenuClasses[key].aClass = "headerMenu__here";
-  }
 
-h1(class=headerSiteNameClass)
+h1(class="headerSiteName")
   a(href="index.html") #{siteName}
 
 ul(class="headerMenu")
-  each v, k in headerMenuClasses
-    li(class=v.liClass)
-      a(href=pages[k].url class=v.aClass) #{pages[k].name}
+  for page in pageNames
+    li
+      a(href=pages[page].url) #{headerMenuNames[key][page]}
