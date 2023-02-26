@@ -42,11 +42,11 @@ for page in pages
     font-family: ff_pages[page].txt
 
     ::selection
-      background-color: c_pages[page].txt
-      color: c_pages[page].bg
+      background-color: c_pages[page].selectBg
+      color: c_pages[page].selectTxt
     ::moz-selection
-      background-color: c_pages[page].txt
-      color: c_pages[page].bg
+      background-color: c_pages[page].selectBg
+      color: c_pages[page].selectTxt
     &::-webkit-scrollbar
       background-color: c_pages[page].scrollbar
     &::-webkit-scrollbar-thumb
