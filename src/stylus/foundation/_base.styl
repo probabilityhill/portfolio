@@ -23,9 +23,6 @@ img
 li
   list-style: none
 
-.displayNone
-  display: none
-
 // ポップアップ画像の枠を消す
 #lightbox .lb-image
   border: none
@@ -44,10 +41,10 @@ for page in pages
     color: c_pages[page].txt
     font-family: ff_pages[page].txt
 
-    &::selection
+    ::selection
       background-color: c_pages[page].txt
       color: c_pages[page].bg
-    &::moz-selection
+    ::moz-selection
       background-color: c_pages[page].txt
       color: c_pages[page].bg
     &::-webkit-scrollbar

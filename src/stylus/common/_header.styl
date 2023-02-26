@@ -1,3 +1,28 @@
+.header
+  left: 1rem
+  position: fixed
+  top: 1rem
+  z-index: 10000
+.headerSiteName
+  font-size: 180%
+  margin: 0
+.headerMenu
+  font-size: 160%
+  margin: 0
+  padding: .5rem 0 0
+  &__emoji
+    font-family: "Noto Sans Egyptian Hieroglyphs", sans-serif
+    font-size 120%
+
++ls()
+  .header
+    left: 2.5rem
+    top: 1.5rem
+  .headerSiteName
+    font-size 250%
+  .headerMenu
+    font-size: 200%
+
 for page in pages
   .{page}
     .headerSiteName
@@ -6,36 +31,21 @@ for page in pages
       font-family: ff_pages[page].headerMenu
 
 .{pages[0]}
-  .header
-    left: 1rem
-    position: fixed
-    top: 1rem
-    z-index: 10000
   .headerSiteName
-    font-size: 180%
-    margin: 0
     text-shadow: .3rem 0 .8rem c_top_pink_glitch, -.3rem 0 .8rem c_top_cyan_glitch, .2rem 0 c_top_pink_glitch, -.2rem 0 c_top_cyan_glitch
   .headerSiteName a:hover
     color: c_top_purple_light
     text-shadow: .3rem 0 .8rem c_top_pink_glitch, -.3rem 0 .8rem c_top_cyan_glitch, .2rem 0 c_top_pink_glitch, -.2rem 0 c_top_cyan_glitch
   .headerMenu
     font-weight: 500
-    font-size: 160%
-    margin: 0
-    padding: .5rem 0 0
     text-shadow: 0 0 .1rem c_top_white, 0 0 .4rem c_top_cyan, 0 0 .8rem c_top_cyan, 0 0 1rem c_top_cyan
-    & a:hover, &__here
+    a:hover, &__here
       color c_top_cyan_light
-    &__emoji
-      font-family: "Noto Sans Egyptian Hieroglyphs", sans-serif
-      font-size 120%
 
-+ls()
-  .{pages[0]}
-    .header
-      left: 2.5rem
-      top: 1.5rem
-    .headerSiteName
-      font-size 250%
-    .headerMenu
-      font-size: 200%
+.{pages[1]}
+  .headerSiteName
+    font-weight: 300
+
+//+ls()
+//  .{pages[0]}
+
