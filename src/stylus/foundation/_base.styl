@@ -7,6 +7,7 @@ body
   font-weight: 500
   letter-spacing: .1em
   margin: 0
+  overflow: overlay
 
 *
   float: none
@@ -21,7 +22,6 @@ img
 
 li
   list-style: none
-
 
 .displayNone
   display: none
@@ -44,14 +44,13 @@ for page in pages
     color: c_pages[page].txt
     font-family: ff_pages[page].txt
 
-    ::selection
+    &::selection
       background-color: c_pages[page].txt
       color: c_pages[page].bg
-    ::moz-selection
+    &::moz-selection
       background-color: c_pages[page].txt
       color: c_pages[page].bg
-
-    ::-webkit-scrollbar
+    &::-webkit-scrollbar
       background-color: c_pages[page].scrollbar
-    ::-webkit-scrollbar-thumb
+    &::-webkit-scrollbar-thumb
       background-color: c_pages[page].scrollbarThumb
