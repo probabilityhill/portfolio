@@ -66,9 +66,23 @@ for page in pages
         &:hover::after
           width: 100%
 
+.{pages[2]}
+  .headerSiteName
+    font-weight: 300
+    a:hover
+      color: c_works_gray_dark
+  .headerMenu
+    font-size 120%
+    li
+      padding: 0 0 1rem
+
+
 +ls()
   .{pages[1]}
     .headerMenu
       font-size 150%
       li
         padding: 0 0 1.1rem
+  .{pages[2]}
+    .headerMenu
+      font-size 160%
