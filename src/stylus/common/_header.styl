@@ -10,9 +10,6 @@
   font-size: 160%
   margin: 0
   padding: .5rem 0 0
-  &__emoji
-    font-family: "Noto Sans Egyptian Hieroglyphs", sans-serif
-    font-size 120%
 
 +ls()
   .header
@@ -41,6 +38,9 @@ for page in pages
     text-shadow: 0 0 .1rem c_top_white, 0 0 .4rem c_top_cyan, 0 0 .8rem c_top_cyan, 0 0 1rem c_top_cyan
     a:hover, &__here
       color c_top_cyan_light
+    li:last-child
+      font-family: ff_hieroglyphs
+      font-size 120%
 
 .{pages[1]}
   .headerSiteName
