@@ -68,18 +68,20 @@ for page in pages
 
 .{pages[2]}
   .headerSiteName
-    font-weight: 300
+    color: c_pics_white
     a:hover
-      color: c_works_gray_dark
+      color: c_pics_orange
   .headerMenu
-    font-size 120%
+    letter-spacing: -.1em
+    font-size 140%
     li
-      padding: 0 0 1rem
+      padding: 0 0 .5rem
       a
         color: c_pics_red
         -webkit-text-stroke 1px c_pics_white
         text-stroke 1px c_pics_white
-
+        &:hover
+          color: c_pics_green
 
 +ls()
   .{pages[1]}
