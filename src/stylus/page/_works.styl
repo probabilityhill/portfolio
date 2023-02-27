@@ -1,31 +1,35 @@
 .works
-  padding: 5rem 6rem
+  padding: 5.5rem 6rem
   &__main
+    a:hover
+      color c_works_red
     &__block
       padding 1rem 0
       &__desc
         &__siteName
+          color c_works_gray_dark
           display inline-block
-          font-weight 500
           margin .5rem 0 0
-        & img
+        img
           margin-left .5rem
           vertical-align -.3rem
           width 1.8rem
         &__outline
           margin: .5rem 0
           & span
-            background-color c_bg_1_light
+            background-color c_works_gray
             border-radius .5rem
+            color white
+            display inline-block
             font-size 85%
-            padding 0 .5rem
+            margin .2rem 0
+            padding .3rem .5rem
         &__details
           &__ttl
-            font-weight 500
             margin-bottom 0
           &__stc
             margin 1rem 0
-            & a
+            a
               text-decoration underline dotted
       &__ss.mark
         margin-top 3rem
@@ -33,14 +37,20 @@
 
 +ls()
   .works
+    padding: 9rem 12rem
     &__main
       display grid
+      font-size: 1.6rem
       grid-auto-flow row
       grid-column-gap 8rem
       grid-template-columns 1fr 1fr
       &__block
         padding 0
         &__desc
+        &__outline
+          margin: .5rem 0
+          & span
+            padding 0 .5rem .2rem
           &__details
             margin-bottom 3rem
         &__ss.mark
