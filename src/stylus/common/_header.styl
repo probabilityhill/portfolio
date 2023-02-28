@@ -50,17 +50,10 @@ for page in pages
     font-size 110%
     li
       padding: 0 0 1rem
-      &:first-child
+      &:first-child a, a:hover
         color: c_works_red
         text-decoration: underline c_works_red 1px
         text-underline-offset: 5px
-      a
-        &:hover
-          color: c_works_red
-          text-decoration: underline c_works_red 1px
-          text-underline-offset: 5px
-        &:hover::after
-          width: 100%
 
 .{pages[2]}
   .headerSiteName
@@ -79,8 +72,8 @@ for page in pages
         color: c_pics_red
         -webkit-text-stroke 1px c_pics_white
         text-stroke 1px c_pics_white
-        &:hover
-          color: c_pics_green
+      &:nth-child(2) a, a:hover
+        color: c_pics_green
 
 +ls()
   .{pages[1]}
