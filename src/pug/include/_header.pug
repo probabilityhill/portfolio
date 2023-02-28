@@ -37,5 +37,6 @@ h1(class="headerSiteName")
 
 ul(class="headerMenu")
   each v, page in pages
-    li
-      a(href=pages[page].url) #{headerMenuNames[key][page]}
+    if page != "top"
+      li
+        a(href=pages[page].url) #{headerMenuNames[key][page]}
