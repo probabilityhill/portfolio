@@ -59,10 +59,10 @@ for page in pages
   .headerSiteName
     color: c_pics_white
     a:hover
-      color: c_pics_orange
+      color: c_pics_blue
   .headerMenu
     display: flex
-    font-size 140%
+    font-size 150%
     justify-content: flex-start
     letter-spacing: -.1em
     padding-top: 0
@@ -73,7 +73,7 @@ for page in pages
         -webkit-text-stroke 1px c_pics_white
         text-stroke 1px c_pics_white
       &:nth-child(2) a, a:hover
-        color: c_pics_green
+        color: c_pics_blue
 
 +ls()
   .{pages[1]}
@@ -83,4 +83,4 @@ for page in pages
         padding: 0 0 1.1rem
   .{pages[2]}
     .headerMenu
-      font-size 160%
+      font-size 180%
