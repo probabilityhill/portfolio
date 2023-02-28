@@ -1,29 +1,29 @@
 .nazo__content
   margin-bottom 5rem
-  & h2
-    margin 1rem
-    text-align center
-
-.lineNazo
   &__item
-    padding-top 1rem
-    &__url
-      font-size 70%
-      & a
-        text-underline-offset .2rem
-        text-decoration underline dotted
+    display grid
+    grid-column-gap 1rem
+    grid-template-columns 2fr 3fr
 
+.nazo__detail
+  &__ttl
+    color c_nazo_pink
+    font-weight 500
+    margin 0
+  &__url
+    font-size 70%
+    font-weight 500
+    margin 0
+    & a
+      text-underline-offset 2px
+      text-decoration underline solid
 
-#twitter-widget-0
-  width 100%
 
 +ls()
   .nazo__content
-    margin-bottom 15rem
-  .lineNazo
     display grid
     grid-auto-flow row
-    grid-column-gap 15rem
+    grid-column-gap 2rem
     grid-template-columns 1fr 1fr
     padding-top 3rem
     &__item
