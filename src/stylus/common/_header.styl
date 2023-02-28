@@ -89,12 +89,16 @@ neonAnimation(80)
 .{pages[3]}
   .headerSiteName
     font-weight: 700
-    a:hover
-      color: c_works_gray_dark
   .headerMenu
     font-size 160%
     letter-spacing: 0
     padding-top: 0
+  .headerSiteName, .headerMenu
+    a
+      background-color: c_nazo_yellow_transp
+      &:hover
+        background-color: c_nazo_blue_light
+        color: c_nazo_red
 
 
 +ls()
