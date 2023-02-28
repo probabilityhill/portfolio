@@ -50,19 +50,15 @@ for page in pages
     font-size 110%
     li
       padding: 0 0 1rem
+      &:first-child
+        color: c_works_red
+        text-decoration: underline c_works_red 1px
+        text-underline-offset: 5px
       a
-        position: relative
-        &::after
-          background-color: c_works_red
-          bottom: 0
-          content: ""
-          height: 1px
-          left: 0
-          position: absolute
-          transition: all .3s ease-in-out .1s
-          width: 0
         &:hover
           color: c_works_red
+          text-decoration: underline c_works_red 1px
+          text-underline-offset: 5px
         &:hover::after
           width: 100%
 
