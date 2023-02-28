@@ -33,7 +33,6 @@ for page in pages
   .headerSiteName a:hover
     color: c_top_purple_light
   .headerMenu
-    font-weight: 500
     a:hover
       color c_top_cyan_light
     li
@@ -86,6 +85,17 @@ neonAnimation(80)
         text-stroke 1px c_pics_white
       &:nth-child(2) a, a:hover
         color: c_pics_blue
+
+.{pages[3]}
+  .headerSiteName
+    font-weight: 700
+    a:hover
+      color: c_works_gray_dark
+  .headerMenu
+    font-size 160%
+    letter-spacing: 0
+    padding-top: 0
+
 
 +ls()
   .{pages[1]}
