@@ -1,10 +1,25 @@
-.nazo__barcode
-  font-family ff_barcode
-  font-size 200%
-  margin 0
+.nazo__q
+  animation: nazo 5s
+  animation-fill-mode: both
+  color transparent
   position: absolute
   right: 1rem
+  text-align right
   top: 1.5rem
+  &__barcode
+    font-family ff_barcode
+    font-size 200%
+    margin 0
+  &__emoji
+    font-family ff_emoji
+    margin 0
+
+@keyframes nazo
+  0%
+    color transparent
+  100%
+    color c_pages.nazo.txt
+
 
 .nazo__content
   margin-bottom 5rem
