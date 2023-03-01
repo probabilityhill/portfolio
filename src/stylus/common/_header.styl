@@ -100,6 +100,32 @@ neonAnimation(80)
       background-color: c_nazo_blue_light
       color: c_nazo_red
 
+.{pages[4]}
+  .header
+    position: static
+  .headerSiteName
+    animation: eyeSiteName 5s linear infinite
+    color: c_eye_green
+    left: 1rem
+    position: absolute
+    text-shadow: 0 0 .8rem c_eye_black, 0 0 1.5rem c_eye_black
+    top: 1rem
+    white-space: nowrap
+  .headerMenu
+    color: c_eye_blue_light
+    text-shadow: .3rem .3rem 0 c_eye_red
+
+@keyframes eyeSiteName
+  30%
+    color c_eye_red
+  50%
+    color c_eye_yellow
+  80%
+    color c_eye_purple
+  100%
+    color c_eye_green
+    left: 100vw
+
 
 +ls()
   .{pages[1]}
