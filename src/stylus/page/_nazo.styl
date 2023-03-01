@@ -1,6 +1,5 @@
 .nazo__q
-  animation: nazo 5s
-  animation-fill-mode: both
+  animation: nazo 3s ease-in .5s forwards
   color transparent
   position: absolute
   right: 1rem
@@ -13,12 +12,18 @@
   &__emoji
     font-family ff_emoji
     margin 0
+    &__fish
+      &::after
+        content: "🐠"
+      &:active::after
+        color c_nazo_pink
+        content: "EXCELLENT👏"
 
 @keyframes nazo
-  0%
-    color transparent
-  100%
+  70%
     color c_pages.nazo.txt
+  100%
+    color black
 
 
 .nazo__content
