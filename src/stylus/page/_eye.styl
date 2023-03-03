@@ -19,10 +19,24 @@
   width: 20rem
 
 .eyeLuckySong
-  &__table
-    border: solid 2px c_eye_black
-    th, td
+  position absolute
+  top: 100vh
+  &__ttl
+    background-color: c_eye_yellow
+    border: double 4px c_eye_blue
+    color c_eye_purple
+    font-size 200%
+    width: 70%
+  &__stc
+    color: c_eye_violet
+  &__tables
+    display: flex
+    flex-wrap: wrap
+    table
       border: solid 2px c_eye_black
+      margin 1rem
+      th, td
+        border: solid 2px c_eye_black
 +ls()
   .eyeAccessCounter
     right 5rem
