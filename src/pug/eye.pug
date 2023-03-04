@@ -4,14 +4,16 @@ block vars
   include _config
   - var key = "eye"
   - var page = pages[key]
+  - var hiragana = "あ"
+  - for (var i = 0; i < 5000; i++) { hiragana += "あ"; }
 
 block contents
-  p.eyeBackground(class="luxy-el") ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+  p.eyeBackground(class="luxy-el") #{hiragana}
   div.eyeAccessCounter(class="luxy-el" data-horizontal="1" data-speed-x="-30" data-speed-y="30")
     p あなたは、<br>
       img(src="https://www.f-counter.net/j/61/1677680991/" alt="アクセスカウンター")
       | 人目<br>の訪問者ですよぉ。
-  section.eyeLuckySong(class="luxy-el" data-speed-y="-25")
+  section.eyeLuckySong(class="luxy-el" data-speed-y="-5")
     h2.eyeLuckySong__ttl 音楽占い
     p.eyeLuckySong__stc アナタのラッキーソングを教えて差し上げます☆
     div.eyeLuckySong__tables
@@ -168,6 +170,9 @@ block contents
           td 革命
           td andymori
         tr
+          td GOTOタイムトラベル
+          td 後藤輝基
+        tr
           td パレード
           td 平沢進
       table.eyeLuckySong__table
@@ -184,6 +189,21 @@ block contents
         tr
           td Big Brother
           td 核P-MODEL
+        tr
+          td 忘れねぇからな
+          td 岩井勇気
+        tr
+          td おしゃかしゃま
+          td RADWIMPS
+        tr
+          td 天体観測
+          td BUMP OF CHICKEN
+        tr
+          td 世界の終わり
+          td THEE MICHELLE GUN ELEPHANT
+        tr
+          td abnormalize
+          td 凛として時雨
       table.eyeLuckySong__table
         caption 少しずつ進みたいアナタへ
         tr
@@ -295,7 +315,7 @@ block contents
           td 毒
           td 長谷川白紙
       table.eyeLuckySong__table
-        caption 虹を見つめるアナタへ
+        caption 虹を見たいアナタへ
         tr
           th 曲名
           th アーティスト
@@ -399,30 +419,34 @@ block contents
           td 鉄の夢
           td THE NOVEMBERS
         tr
+          td ガソリンの揺れかた
+          td BLANKEY JET CITY
+        tr
           td Dingir
           td Seijaku
-  <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=527283514/size=large/bgcol=333333/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://otochfto.bandcamp.com/album/--4">アニメーション・トリッピング by マッチャポテトサラダ</a></iframe>
-  <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=514537703/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://parannoul.bandcamp.com/album/to-see-the-next-part-of-the-dream">To See the Next Part of the Dream by Parannoul</a></iframe>
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-35" style="border-radius:12px" src="https://open.spotify.com/embed/track/1edl0g69OvvUssTf5vC1rq?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-30" style="border-radius:12px" src="https://open.spotify.com/embed/track/1i84eCrJbu0EIP5aWToMMa?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/5wabyQ3O6CLAznVsAFCrXW?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-26" style="border-radius:12px" src="https://open.spotify.com/embed/track/35VEMDOASF9TfAbl3U64Eu?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-28" style="border-radius:12px" src="https://open.spotify.com/embed/track/1iSnXuadmWcq1WUDUjQvHt?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-25" style="border-radius:12px" src="https://open.spotify.com/embed/track/2qBfUvYSQfgt2GYi3pPrge?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/3O6cA0xColhZ2PeBENPC2H?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/6pxKpd4zBqMPJp0ZuMZtHb?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/3JQQap0iGnVOzcof11u5Cv?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/1bGQzqsQ481KXnX5W6dGRA?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/3srgHK0I4G5zK4TY1P7ezq?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/52TtyArjNXICtlHtLeaBK2?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/2SY014tJ8Vj5yfroKk3ZtL?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/3HkmmvgXu4bGkiQgQ0wkaD?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/1KQ6GNUboUSDHXuIfE6ckI?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/06UCEdRD4fSx6ULCGDJ850?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/7jmYhcxN8kiKMZbAgNGNoZ?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  iframe.eyeSpotifySm(class="luxy-el" data-speed-y="-25" style="border-radius:12px" src="https://open.spotify.com/embed/track/5jf779cw8oauB14gg2ELe3?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
-  div.eyeMusic(class="luxy-el" data-speed-y="-3")
-    p あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+  iframe.eyeArtworkLg(class="luxy-el" data-speed-y="-35" style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=527283514/size=large/bgcol=333333/linkcol=4ec5ec/minimal=true/transparent=true/" seamless)
+    a(href="https://otochfto.bandcamp.com/album/--4") アニメーション・トリッピング by マッチャポテトサラダ
+  iframe.eyeArtworkLg(class="luxy-el" data-speed-y="-40" style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=514537703/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless)
+    a(href="https://parannoul.bandcamp.com/album/to-see-the-next-part-of-the-dream") To See the Next Part of the Dream by Parannoul
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-35" style="border-radius:12px" src="https://open.spotify.com/embed/track/1edl0g69OvvUssTf5vC1rq?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-30" style="border-radius:12px" src="https://open.spotify.com/embed/track/1i84eCrJbu0EIP5aWToMMa?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/5wabyQ3O6CLAznVsAFCrXW?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-26" style="border-radius:12px" src="https://open.spotify.com/embed/track/35VEMDOASF9TfAbl3U64Eu?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-28" style="border-radius:12px" src="https://open.spotify.com/embed/track/1iSnXuadmWcq1WUDUjQvHt?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-25" style="border-radius:12px" src="https://open.spotify.com/embed/track/2qBfUvYSQfgt2GYi3pPrge?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/3O6cA0xColhZ2PeBENPC2H?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/6pxKpd4zBqMPJp0ZuMZtHb?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/3JQQap0iGnVOzcof11u5Cv?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/1bGQzqsQ481KXnX5W6dGRA?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/3srgHK0I4G5zK4TY1P7ezq?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/52TtyArjNXICtlHtLeaBK2?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/2SY014tJ8Vj5yfroKk3ZtL?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/3HkmmvgXu4bGkiQgQ0wkaD?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/1KQ6GNUboUSDHXuIfE6ckI?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/06UCEdRD4fSx6ULCGDJ850?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-5" style="border-radius:12px" src="https://open.spotify.com/embed/track/7jmYhcxN8kiKMZbAgNGNoZ?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+  iframe.eyeArtworkSm(class="luxy-el" data-speed-y="-25" style="border-radius:12px" src="https://open.spotify.com/embed/track/5jf779cw8oauB14gg2ELe3?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy")
+
 
 block script
   script(src=jsPath+"/luxy.min.js")

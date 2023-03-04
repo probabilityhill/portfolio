@@ -4,18 +4,18 @@
   margin 0
 .eyeAccessCounter
   color c_eye_red
-  font-size 200%
+  font-size 150%
   font-weight 600
   position absolute
   right 0
   top: 20rem
   z-index 9999
   img
-    width 20rem
-.eyeSpotifySm
+    width 15rem
+.eyeArtworkSm
   height: 8rem
   width: 8rem
-.eyeSpotifyLg
+.eyeArtworkLg
   height: 20rem
   width: 20rem
 
@@ -26,22 +26,38 @@
     background-color: c_eye_yellow
     border: double 4px c_eye_blue
     color c_eye_purple
-    font-size 200%
-    width: 70%
+    font-size 150%
+    width: 15rem
   &__stc
     color: c_eye_violet
   &__tables
     display: flex
     flex-wrap: wrap
+    font-size 80%
     table
-      border: solid 2px c_eye_black
+      border: solid 1px c_eye_black
       margin 1rem
       th, td
-        border: solid 2px c_eye_black
+        border: solid 1px c_eye_black
         a
           color: c_eye_blue
           text-decoration: underline 1px c_eye_blue
 +ls()
   .eyeAccessCounter
+    font-size: 200%
     right 5rem
     top: 30rem
+    img
+      width 20rem
+
+  .eyeLuckySong
+    &__ttl
+      color c_eye_purple
+      font-size 200%
+      width: 20rem
+    &__stc
+      color: c_eye_violet
+    &__tables
+      display: flex
+      flex-wrap: wrap
+      font-size 80%
