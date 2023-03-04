@@ -8,20 +8,41 @@
   font-weight 600
   position absolute
   right 0
-  top: 20rem
+  top: 0
   z-index 9999
+  &__txt
+    margin 0
   img
     width 15rem
 .eyeIllust
+  height: 15rem
   position absolute
-  &:nth-of-type(7)
+  width auto
+  &:nth-of-type(2n+1)
     left: 0
-    top: 0
-    width 20rem
-  &:nth-of-type(8)
+  &:nth-of-type(2n)
     right: 0
-    top: 8rem
-    width 18rem
+  &:nth-of-type(1)
+    top: 10rem
+  &:nth-of-type(2)
+    height: 30rem
+    top: 25rem
+  &:nth-of-type(3)
+    top: 55rem
+  &:nth-of-type(4)
+    top: 70rem
+  &:nth-of-type(5)
+    height: 20rem
+    top: 85rem
+  &:nth-of-type(6)
+    top: 105rem
+  &:nth-of-type(7)
+    height: 20rem
+    top: 120rem
+  &:nth-of-type(8)
+    top: 140rem
+  &:active
+    width: 100%
 
 .eyeArtworkSm
   height: 8rem
@@ -32,7 +53,7 @@
 
 .eyeLuckySong
   position absolute
-  top: 100vh
+  top: 180rem
   &__ttl
     background-color: c_eye_yellow
     border: double 4px c_eye_blue
@@ -56,17 +77,38 @@
 +ls()
   .eyeAccessCounter
     font-size: 200%
-    right 5rem
-    top: 30rem
+    right: 5rem
     img
       width 20rem
   .eyeIllust
+    height: 20rem
+    &:nth-of-type(2n+1)
+      left: 15rem
+    &:nth-of-type(2n)
+      right: 15rem
+    &:nth-of-type(1)
+      top: 15rem
+    &:nth-of-type(2)
+      height: 40rem
+      top: 35rem
+    &:nth-of-type(3)
+      top: 75rem
+    &:nth-of-type(4)
+      top: 95rem
+    &:nth-of-type(5)
+      height: 30rem
+      top: 115rem
+    &:nth-of-type(6)
+      top: 145rem
     &:nth-of-type(7)
-      width 40rem
+      height: 30rem
+      top: 165rem
     &:nth-of-type(8)
-      right: 3rem
-      width 30rem
+      top: 195rem
+    &:active
+      width: 80%
   .eyeLuckySong
+    top: 250rem
     &__ttl
       font-size 200%
       width: 20rem

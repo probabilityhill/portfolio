@@ -5,28 +5,28 @@ block vars
   - var key = "eye"
   - var page = pages[key]
   - var hiragana = "あ"
-  - for (var i = 0; i < 5000; i++) { hiragana += "あ"; }
+  - for (var i = 0; i < 10000; i++) { hiragana += "あ"; }
 
 block contents
   p.eyeBackground(class="luxy-el") #{hiragana}
-  div.eyeAccessCounter(class="luxy-el" data-horizontal="1" data-speed-x="-30" data-speed-y="30")
-    p あなたは、<br>
+  div.eyeAccessCounter(class="luxy-el" data-speed-y="10")
+    p.eyeAccessCounter__txt あなたは、<br>
       img(src="https://www.f-counter.net/j/61/1677680991/" alt="アクセスカウンター")
       | 人目<br>の訪問者ですよぉ。
-  img.eyeIllust(class="luxy-el" data-speed-y="30" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
-  img.eyeIllust(class="luxy-el" data-speed-y="30" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
-  img.eyeIllust(class="luxy-el" data-speed-y="30" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
-  img.eyeIllust(class="luxy-el" data-speed-y="30" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
-  img.eyeIllust(class="luxy-el" data-speed-y="30" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
-  img.eyeIllust(class="luxy-el" data-speed-y="30" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
-  img.eyeIllust(class="luxy-el" data-speed-y="20" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
-  img.eyeIllust(class="luxy-el" data-speed-y="10" src=imgPath+"/"+key+"/sunset.jpg" alt="『リリイシュシュのすべて』より")
+  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="25" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
+  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-25" src=imgPath+"/"+key+"/sunset.jpg" alt="『リリイシュシュのすべて』より")
+  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="15" src=imgPath+"/"+key+"/sketch.jpg" alt="らくがき")
+  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-10" src=imgPath+"/"+key+"/heaven.jpg" alt="ヘヴン")
+  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="8" src=imgPath+"/"+key+"/heart.jpg" alt="ワンダーランド")
+  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-5" src=imgPath+"/"+key+"/plants.jpg" alt="植物")
+  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="5" src=imgPath+"/"+key+"/okadanao.jpg" alt="サークル")
+  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-5" src=imgPath+"/"+key+"/wonderland.jpg" alt="ハート")
   section.eyeLuckySong(class="luxy-el" data-speed-y="-5")
     h2.eyeLuckySong__ttl 音楽占い
     p.eyeLuckySong__stc アナタのラッキーソングを教えて差し上げます☆
     div.eyeLuckySong__tables
       table
-        caption 夕焼けが好きなアナタへ
+        caption 夕焼けが好きなアナタには…
         tr
           th 曲名
           th アーティスト
@@ -73,7 +73,7 @@ block contents
           td HUMAN-LE
           td 核P-MODEL
       table.eyeLuckySong__table
-        caption ダウナーなアナタへ
+        caption ダウナーなアナタには…
         tr
           th 曲名
           th アーティスト
@@ -102,7 +102,7 @@ block contents
           td SPEC - Main Theme -
           td 渋谷慶一郎
       table.eyeLuckySong__table
-        caption 自分を見つめたいアナタへ
+        caption 自分を見つめたいアナタには…
         tr
           th 曲名
           th アーティスト
@@ -122,7 +122,7 @@ block contents
           td Lannoy Point
           td Ride
       table.eyeLuckySong__table
-        caption 夜景が好きなアナタへ
+        caption 夜景が好きなアナタには…
         tr
           th 曲名
           th アーティスト
@@ -160,7 +160,7 @@ block contents
           td IN THIS WORLD feat. 坂本龍一 [Vocal:満島ひかり]
           td MONDO GROSSO
       table.eyeLuckySong__table
-        caption ワクワクしてるアナタへ
+        caption ワクワクしてるアナタには…
         tr
           th 曲名
           th アーティスト
@@ -184,7 +184,7 @@ block contents
           td パレード
           td 平沢進
       table.eyeLuckySong__table
-        caption 疾走したいアナタへ
+        caption 疾走したいアナタには…
         tr
           th 曲名
           th アーティスト
@@ -213,7 +213,7 @@ block contents
           td abnormalize
           td 凛として時雨
       table.eyeLuckySong__table
-        caption 少しずつ進みたいアナタへ
+        caption 少しずつ進みたいアナタには…
         tr
           th 曲名
           th アーティスト
@@ -251,7 +251,7 @@ block contents
           td 光の方へ
           td カネコアヤノ
       table.eyeLuckySong__table
-        caption 穏やかで爽やかな気分のアナタへ
+        caption 穏やかで爽やかな気分のアナタには…
         tr
           th 曲名
           th アーティスト
@@ -271,7 +271,7 @@ block contents
           td あの夏へ
           td 久石譲
       table.eyeLuckySong__table
-        caption 無気力なアナタへ
+        caption 無気力なアナタには…
         tr
           th 曲名
           th アーティスト
@@ -300,7 +300,7 @@ block contents
           td 言葉も出ない
           td 踊ってばかりの国
       table.eyeLuckySong__table
-        caption クリエイティブなアナタへ
+        caption クリエイティブなアナタには…
         tr
           th 曲名
           th アーティスト
@@ -323,7 +323,7 @@ block contents
           td 毒
           td 長谷川白紙
       table.eyeLuckySong__table
-        caption 虹を見たいアナタへ
+        caption 虹を見たいアナタには…
         tr
           th 曲名
           th アーティスト
@@ -346,7 +346,7 @@ block contents
           td サイケデリック後遺症
           td Syrup 16g
       table.eyeLuckySong__table
-        caption 夢の世界に行きたいアナタへ
+        caption 夢の世界に行きたいアナタには…
         tr
           th 曲名
           th アーティスト
@@ -381,7 +381,7 @@ block contents
           td 松尾芭蕉
           td 水曜日のカンパネラ
       table.eyeLuckySong__table
-        caption ふわふわな気分のアナタへ
+        caption ふわふわな気分のアナタには…
         tr
           th 曲名
           th アーティスト
@@ -407,7 +407,7 @@ block contents
           td GHOST WORLD
           td Tempalay
       table.eyeLuckySong__table
-        caption 内なる感情が溢れ出しそうなアナタへ
+        caption 内なる感情が溢れ出しそうなアナタには…
         tr
           th 曲名
           th アーティスト
