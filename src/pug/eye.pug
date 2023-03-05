@@ -13,14 +13,24 @@ block contents
     p.eyeAccessCounter__txt あなたは、<br>
       img(src="https://www.f-counter.net/j/61/1677680991/" alt="アクセスカウンター")
       | 人目<br>の訪問者ですよぉ。
-  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="25" src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
-  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-25" src=imgPath+"/"+key+"/sunset.jpg" alt="『リリイシュシュのすべて』より")
-  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="15" src=imgPath+"/"+key+"/sketch.jpg" alt="らくがき")
-  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-10" src=imgPath+"/"+key+"/heaven.jpg" alt="ヘヴン")
-  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="8" src=imgPath+"/"+key+"/heart.jpg" alt="ハート")
-  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-5" src=imgPath+"/"+key+"/plants.jpg" alt="植物")
-  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="5" src=imgPath+"/"+key+"/okadanao.jpg" alt="サークル")
-  img.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-5" src=imgPath+"/"+key+"/wonderland.jpg" alt="ワンダーランド")
+
+  a.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="25" href=imgPath+"/"+key+"/chocolates.jpg" data-lightbox="group")
+    img(src=imgPath+"/"+key+"/chocolates.jpg" alt="チョコレート")
+  a.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-25" href=imgPath+"/"+key+"/sunset.jpg" data-lightbox="group")
+    img(src=imgPath+"/"+key+"/sunset.jpg" alt="『リリイシュシュのすべて』より")
+  a.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="15" href=imgPath+"/"+key+"/sketch.jpg" data-lightbox="group")
+    img(src=imgPath+"/"+key+"/sketch.jpg" alt="らくがき")
+  a.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-10" href=imgPath+"/"+key+"/heaven.jpg" data-lightbox="group")
+    img(src=imgPath+"/"+key+"/heaven.jpg" alt="ヘヴン")
+  a.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="8" href=imgPath+"/"+key+"/heart.jpg" data-lightbox="group")
+    img(src=imgPath+"/"+key+"/heart.jpg" alt="ハート")
+  a.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-5" href=imgPath+"/"+key+"/plants.jpg" data-lightbox="group")
+    img(src=imgPath+"/"+key+"/plants.jpg" alt="植物")
+  a.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="5" href=imgPath+"/"+key+"/okadanao.jpg" data-lightbox="group")
+    img(src=imgPath+"/"+key+"/okadanao.jpg" alt="サークル")
+  a.eyeIllust(class="luxy-el" data-horizontal="1" data-speed-x="-5" href=imgPath+"/"+key+"/wonderland.jpg" data-lightbox="group")
+    img(src=imgPath+"/"+key+"/wonderland.jpg" alt="ワンダーランド")
+
   section.eyeLuckySong(class="luxy-el" data-speed-y="-5")
     h2.eyeLuckySong__ttl 音楽占い
     p.eyeLuckySong__stc アナタのラッキーソングを教えて差し上げます☆
