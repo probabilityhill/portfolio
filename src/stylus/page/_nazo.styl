@@ -1,35 +1,20 @@
 .nazo__q
+  animation: emoji 3s ease-in .5s forwards
   color transparent
+  font-family ff_emoji
+  letter-spacing: 0
+  margin 0
   position: absolute
   right: 1rem
-  text-align right
-  top: 1.5rem
-  &__barcode
-    animation: barcode 3s ease-in .5s forwards
-    font-family ff_barcode
-    font-size 200%
-    margin 0
-  &__emoji
-    animation: emoji 3s ease-in .5s forwards
-    font-family ff_emoji
-    margin 0
-    &__fish
-      &::after
-        color c_nazo_pink
-        content: "EXCELLENT👏"
-        display: none
-      &:active::after
-        display: inline
+  text-align center
+  top: 5rem
+  span
+    display inline-block
+    padding-top .5rem
 
 @keyframes emoji
   100%
     color c_pages.nazo.txt
-
-@keyframes barcode
-  70%
-    color c_pages.nazo.txt
-  100%
-    color c_nazo_black
 
 .nazo__content
   padding-bottom 5rem
@@ -61,12 +46,8 @@
 
 +ls()
   .nazo__q
+    font-size 120%
     right: 2.5rem
-    top: 2rem
-    &__barcode
-      font-size 250%
-    &__emoji
-      font-size 120%
 
   .nazo__content
     display grid

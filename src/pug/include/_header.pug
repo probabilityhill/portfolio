@@ -3,32 +3,27 @@
     top: {
       works: "Works",
       pics: "Pics",
-      nazo: "Nazo",
-      eye: "𓁹"
+      nazo: "Nazo"
     },
     works: {
       works: "作品",
       pics: "写真",
-      nazo: "謎",
-      eye: "め"
+      nazo: "謎"
     },
     pics: {
       works: "サクヒン",
       pics: "シャシン",
-      nazo: "ナゾ",
-      eye: "メ"
+      nazo: "ナゾ"
     },
     nazo: {
       works: "WORKS",
       pics: "PICS",
-      nazo: "NAZO",
-      eye: "I"
+      nazo: "NAZO"
     },
     eye: {
       works: "works",
       pics: "pics",
-      nazo: "nazo",
-      eye: "me"
+      nazo: "nazo"
     }
   };
 
@@ -36,7 +31,7 @@ h1(class="headerSiteName")
   a(href="index.html") #{siteName}
 
 ul(class="headerMenu")
-  each v, page in pages
+  for page in ["works", "pics", "nazo"]
     if page != "top"
       li
         a(href=pages[page].url) #{headerMenuNames[key][page]}
